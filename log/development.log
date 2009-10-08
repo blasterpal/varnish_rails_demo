@@ -3169,3 +3169,288 @@ Completed in 368ms (View: 362, DB: 1) | 200 OK [http://localhost/]
 Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:34:24) [GET]
   Parameters: {"id"=>"1", "_"=>"1255044864756"}
 Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1255044864756]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 19:37:41) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.8ms)
+Rendered shared/_tweets_list (1.3ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 5625ms (View: 5619, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:37:47) [GET]
+  Parameters: {"id"=>"1", "_"=>"1255045067794"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1255045067794]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 19:38:08) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.9ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 663ms (View: 657, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:38:08) [GET]
+  Parameters: {"id"=>"3", "_"=>"1255045088956"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/3?_=1255045088956]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 19:38:30) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.9ms)
+Rendered shared/_tweets_list (1.2ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 5653ms (View: 5648, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:38:36) [GET]
+  Parameters: {"id"=>"3", "_"=>"1255045116112"}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/3?_=1255045116112]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 19:38:48) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.8ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 5507ms (View: 5502, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:38:54) [GET]
+  Parameters: {"id"=>"2", "_"=>"1255045134172"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1255045134172]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 19:39:23) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.8ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 5643ms (View: 5637, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:39:29) [GET]
+  Parameters: {"id"=>"1", "_"=>"1255045169483"}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1255045169483]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 19:39:47) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.8ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 629ms (View: 622, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:39:48) [GET]
+  Parameters: {"id"=>"2", "_"=>"1255045188707"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1255045188707]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 19:40:12) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.8ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 5380ms (View: 5374, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:40:17) [GET]
+  Parameters: {"id"=>"3", "_"=>"1255045217731"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/3?_=1255045217731]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 19:40:29) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (1.4ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 367ms (View: 361, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:40:29) [GET]
+  Parameters: {"id"=>"2", "_"=>"1255045229821"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1255045229821]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 19:40:35) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (1.0ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 5440ms (View: 5434, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:40:41) [GET]
+  Parameters: {"id"=>"3", "_"=>"1255045241222"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/3?_=1255045241222]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 19:40:46) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (1.0ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 428ms (View: 422, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:40:47) [GET]
+  Parameters: {"id"=>"1", "_"=>"1255045247165"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1255045247165]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 19:40:54) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.8ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 354ms (View: 348, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:40:55) [GET]
+  Parameters: {"id"=>"1", "_"=>"1255045255347"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1255045255347]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 19:41:03) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.9ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 407ms (View: 401, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:41:04) [GET]
+  Parameters: {"id"=>"3", "_"=>"1255045264600"}
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/3?_=1255045264600]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 19:41:16) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.8ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 5419ms (View: 5414, DB: 1) | 200 OK [http://localhost/content/home/1]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:41:22) [GET]
+  Parameters: {"id"=>"1", "_"=>"1255045282234"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1255045282234]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 19:41:26) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.8ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 5741ms (View: 5736, DB: 1) | 200 OK [http://localhost/content/home/3]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:41:32) [GET]
+  Parameters: {"id"=>"3", "_"=>"1255045292217"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/3?_=1255045292217]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 19:41:44) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.8ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 6210ms (View: 6205, DB: 1) | 200 OK [http://localhost/content/home/3]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:41:50) [GET]
+  Parameters: {"id"=>"3", "_"=>"1255045310531"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/3?_=1255045310531]

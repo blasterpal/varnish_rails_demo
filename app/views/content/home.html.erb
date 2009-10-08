@@ -1,6 +1,8 @@
 <%= view_post(@post.id) %>  
 
-<h2>Today's tweets about 'ghosts'</h2>  
+<div id="tweet_list">
+	<h2>Today's tweets about 'ghosts'</h2>  
 
-<% #render_esi ('/fragments/tweets') %>
-<%= tweet_list%>
+	<% #render_esi ('/fragments/tweets') %>
+	<%= tweet_list%>   
+</div>
