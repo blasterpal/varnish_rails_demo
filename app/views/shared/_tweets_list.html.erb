@@ -1,0 +1,7 @@
+<ul id="tweet_list">
+<% @tweets.items[0..4].each{ |tweet|%>
+	<li><%= link_to truncate("#{tweet.title}", :length => 80), tweet.link, {:class => 'tweet_list_link'} %></li>
+<%}%>
+</ul>
+
+	

@@ -27,10 +27,11 @@ body{
 	padding:10px;
 	text-align:left;} 
 
-#header h1{
+#header h1 a{
 	font-size:30px;
 	font-family:Verdana, Arial, Helvetica, sans-serif;
-	color:#00689f;}		
+	color:#00689f;}
+	 
 	
 #main{   
 	width:723px; 
@@ -44,7 +45,8 @@ body{
 	text-align:left;
 	color: #000;   
 	margin:0 auto;
-	border:1px solid #333;} 
+	border:1px solid #333;
+	background:url(/images/main-bg.png) top left repeat;} 
 
 #footer{
 	border-top:1px solid #333;
@@ -62,9 +64,21 @@ a{
 ul li{
 	text-align:left; 
 	font-size:10px;
-	color:#fff; 
+	color:#222; 
 	margin:3 0 3 0px;  
-}		
+}	 
+
+ul#tweet_list li{
+	text-align:left; 
+	font-size:14px;
+	color:#000; 
+	margin:3 0 3 0px;  
+}  
+
+
+a.tweet_list_link {
+	color:#222;   
+}
 </style> 
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
@@ -73,7 +87,7 @@ ul li{
 
 <body>
 <div id="container">
-	<div id="header"><h1>Build a Better, Faster App with Varnish</h1></div><!--end header-->
+	<div id="header"><h1><%= link_to 'Build a Better, Faster App with Varnish', root_path , {:class => 'header_link'}%></h1></div><!--end header-->
     <div id="main">
 			<p style="color: green"><%= flash[:notice] %></p>   
 			<%= yield %>
@@ -83,7 +97,9 @@ ul li{
 				   <div id="sidebar_header">
 					       Cookie and Personal Info
 					 </div>  
-					<%= personal_info %>           
+					<%= personal_info %>  
+					<h3>Posts</h3>
+					<%=posts_list%>         
 		</div>            
 	    <div id="footer">
 	    	<p><a href="mailto:hbeaver@rubyslacker.com">Hank Beaver</a> - ATLRUG - October 14, 2009<br/><%=pretty_time%> </p> 

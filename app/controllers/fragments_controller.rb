@@ -1,6 +1,7 @@
 class FragmentsController < ApplicationController 
   
   require 'yaml'
+
              
   layout false
 
@@ -12,6 +13,10 @@ class FragmentsController < ApplicationController
     render :text => "<!-- Viewed Posts Called with #{params[:id] }-->"
   end
   
+  
+  def tweets
+     tweet_list
+  end
 
     
 end

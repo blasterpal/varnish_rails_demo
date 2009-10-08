@@ -1,0 +1,5 @@
+<ul>
+	<% posts.each{|post|%>
+	<li><%= link_to post.title, {:controller => 'content', :action => 'home', :id => post} %></li>
+	<%}%>
+</ul>

@@ -1,0 +1,12 @@
+<h1>
+  <%=h post.title %>
+</h1>
+
+<p>
+  <%= post.body %>
+</p>
+<div id="recently_viewed_cookie">
+</div>
+<script>
+  $.ajax({url:"/fragments/viewed_posts/<%=post.id%>" ,cache:false,success: function(html){$('#recently_viewed_cookie').append(html);}});           
+</script>

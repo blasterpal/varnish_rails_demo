@@ -1333,3 +1333,1839 @@ Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/2]
 Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:25:43) [GET]
   Parameters: {"id"=>"2", "_"=>"1254965143586"}
 Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1254965143586]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-08 17:32:15) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 17:32:20) [GET]
+  Parameters: {"id"=>"2", "_"=>"1255037540846"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1255037540846]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-08 17:32:56) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 17:32:57) [GET]
+  Parameters: {"id"=>"2", "_"=>"1255037577092"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1255037577092]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-08 17:33:06) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 17:33:06) [GET]
+  Parameters: {"id"=>"2", "_"=>"1255037586597"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1255037586597]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-08 17:33:10) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 17:33:10) [GET]
+  Parameters: {"id"=>"2", "_"=>"1255037590600"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1255037590600]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-08 17:33:18) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 17:33:18) [GET]
+  Parameters: {"id"=>"2", "_"=>"1255037598946"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1255037598946]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-08 17:33:30) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 17:33:31) [GET]
+  Parameters: {"id"=>"2", "_"=>"1255037611090"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1255037611090]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-08 17:33:39) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 17:33:40) [GET]
+  Parameters: {"id"=>"2", "_"=>"1255037620032"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1255037620032]
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM "posts" [0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 0) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-08 18:09:47) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 18:09:53) [GET]
+  Parameters: {"id"=>"2", "_"=>"1255039792971"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1255039792971]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 18:29:17) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/index
+ERROR: compiling _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list RAISED compile error
+/Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:6: syntax error, unexpected kENSURE, expecting '}'
+/Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:8: syntax error, unexpected kEND, expecting '}'
+Function body:           def _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list(local_assigns)
+            old_output_buffer = output_buffer;tweets_list = local_assigns[:tweets_list];object = local_assigns[:object];;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<ul>\n"
+ @tweets[0-5].each{ |tweet|; @output_buffer.concat "\n"
+@output_buffer.concat "\t<li>";  link_to truncate(tweet.description, 30), tweet.link ; @output_buffer.concat "</li>\n"
+@output_buffer.concat "</ul>\n"
+@output_buffer.concat "\t"; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:8:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable_partial.rb:20:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable_partial.rb:19:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/partials.rb:184:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:262:in `render'
+/Users/hbeaver/code/varnish_demo/app/helpers/application_helper.rb:23:in `tweet_list'
+/Users/hbeaver/code/varnish_demo/app/views/content/index.html.erb:6:in `_run_erb_app47views47content47index46html46erb'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:34:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:34:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:301:in `with_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:30:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:343:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:257:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:941:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1322:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1328:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:6: syntax error, unexpected kENSURE, expecting '}'
+/Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:8: syntax error, unexpected kEND, expecting '}') on line #6 of app/views/shared/_tweets_list.html.erb:
+3: 	<li><% link_to truncate(tweet.description, 30), tweet.link %></li>
+4: </ul>
+5: 	
+
+    app/views/shared/_tweets_list.html.erb:8:in `compile!'
+    app/helpers/application_helper.rb:23:in `tweet_list'
+    app/views/content/index.html.erb:6
+
+Rendered rescues/_trace (41.5ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 18:29:41) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/index
+
+ActionView::TemplateError (undefined method `[]' for #<SimpleRSS:0x244d6d8>) on line #2 of app/views/shared/_tweets_list.html.erb:
+1: <ul>
+2: <% @tweets[0-5].each{ |tweet|%>
+3: 	<li><% link_to truncate(tweet.description, 30), tweet.link %></li>
+4: <%}%>
+5: </ul>
+
+    app/views/shared/_tweets_list.html.erb:2
+    app/helpers/application_helper.rb:23:in `tweet_list'
+    app/views/content/index.html.erb:6
+
+Rendered rescues/_trace (109.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 18:30:09) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/index
+
+ActionView::TemplateError (undefined method `description' for #<Array:0x2510048>) on line #3 of app/views/shared/_tweets_list.html.erb:
+1: <ul>
+2: <% @tweets.items[0-5].each{ |tweet|%>
+3: 	<li><% link_to truncate(tweet.description, 30), tweet.link %></li>
+4: <%}%>
+5: </ul>
+6: 
+
+    app/views/shared/_tweets_list.html.erb:3
+    app/views/shared/_tweets_list.html.erb:2:in `each'
+    app/views/shared/_tweets_list.html.erb:2
+    app/helpers/application_helper.rb:23:in `tweet_list'
+    app/views/content/index.html.erb:6
+
+Rendered rescues/_trace (41.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 18:32:02) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (2.0ms)
+Rendered shared/_cookie_info (0.6ms)
+Completed in 5617ms (View: 5612, DB: 0) | 200 OK [http://localhost/content]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 18:32:26) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.9ms)
+Rendered shared/_cookie_info (0.1ms)
+Completed in 483ms (View: 477, DB: 0) | 200 OK [http://localhost/content]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 18:33:39) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.9ms)
+Rendered shared/_cookie_info (0.1ms)
+Completed in 5313ms (View: 5308, DB: 0) | 200 OK [http://localhost/content]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 18:34:05) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/index
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (74.4ms)
+Rendered shared/_cookie_info (0.1ms)
+Completed in 467ms (View: 463, DB: 0) | 200 OK [http://localhost/content]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 18:39:01) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (2.4ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (2.2ms)
+Rendered shared/_cookie_info (0.6ms)
+Completed in 381ms (View: 366, DB: 0) | 200 OK [http://localhost/content]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 18:39:06) [GET]
+  Parameters: {"id"=>"1", "_"=>"1255041546754"}
+Completed in 120ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1255041546754]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 18:39:34) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (1.4ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.8ms)
+Rendered shared/_cookie_info (0.1ms)
+Completed in 628ms (View: 622, DB: 0) | 200 OK [http://localhost/content]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 18:39:35) [GET]
+  Parameters: {"id"=>"1", "_"=>"1255041575123"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1255041575123]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 18:40:25) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.8ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.7ms)
+Rendered shared/_cookie_info (0.1ms)
+Completed in 5353ms (View: 5348, DB: 0) | 200 OK [http://localhost/content]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 18:40:31) [GET]
+  Parameters: {"id"=>"2", "_"=>"1255041631298"}
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1255041631298]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 18:40:59) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.9ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.7ms)
+Rendered shared/_cookie_info (0.1ms)
+Completed in 5507ms (View: 5502, DB: 0) | 200 OK [http://localhost/content]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 18:41:05) [GET]
+  Parameters: {"id"=>"2", "_"=>"1255041664975"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1255041664975]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 18:41:26) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.9ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.6ms)
+Rendered shared/_cookie_info (0.1ms)
+Completed in 1976ms (View: 1971, DB: 0) | 200 OK [http://localhost/content]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 18:41:29) [GET]
+  Parameters: {"id"=>"2", "_"=>"1255041689057"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1255041689057]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 18:42:03) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.7ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.8ms)
+Rendered shared/_cookie_info (0.1ms)
+Completed in 5464ms (View: 5459, DB: 0) | 200 OK [http://localhost/content]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 18:42:09) [GET]
+  Parameters: {"id"=>"2", "_"=>"1255041729401"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1255041729401]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 18:42:15) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.8ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.6ms)
+Rendered shared/_cookie_info (0.1ms)
+Completed in 295ms (View: 290, DB: 0) | 200 OK [http://localhost/content]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 18:42:16) [GET]
+  Parameters: {"id"=>"2", "_"=>"1255041735986"}
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1255041735986]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 18:42:18) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.8ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.7ms)
+Rendered shared/_cookie_info (0.1ms)
+Completed in 287ms (View: 282, DB: 0) | 200 OK [http://localhost/content]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 18:42:18) [GET]
+  Parameters: {"id"=>"2", "_"=>"1255041738855"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1255041738855]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 18:43:26) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (1.0ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (2.3ms)
+Rendered shared/_cookie_info (0.1ms)
+Completed in 816ms (View: 737, DB: 0) | 200 OK [http://localhost/content]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 18:43:27) [GET]
+  Parameters: {"id"=>"1", "_"=>"1255041807232"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1255041807232]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 18:43:38) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.8ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (2.0ms)
+Rendered shared/_cookie_info (0.1ms)
+Completed in 1022ms (View: 1017, DB: 0) | 200 OK [http://localhost/content]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 18:43:39) [GET]
+  Parameters: {"id"=>"1", "_"=>"1255041819315"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1255041819315]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-08 18:45:36) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Rendered shared/_cookie_info (0.1ms)
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-08 18:45:38) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+Rendered shared/_cookie_info (0.1ms)
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/posts/1/edit]
+
+
+Processing PostsController#update (for 127.0.0.1 at 2009-10-08 19:07:18) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"hsmIUMaxWHCHdmhIwwlbDEk69BoyMtr783Nhya6i6L0=", "post"=>{"body"=>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \r\n\r\n<img src=\"/images/PhotoPegLeg.jpg\">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.     \r\n\r\n", "title"=>"Boy eats old leg!", "published"=>"0"}, "id"=>"1"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+  [4;35;1mPost Update (0.4ms)[0m   [0mUPDATE "posts" SET "body" = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+<img src="/images/PhotoPegLeg.jpg">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+
+', "updated_at" = '2009-10-08 23:07:18' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/posts/1
+Completed in 10ms (DB: 1) | 302 Found [http://localhost/posts/1]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-08 19:07:18) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/posts/1]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:07:23) [GET]
+  Parameters: {"id"=>"1", "_"=>"1255043243939"}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1255043243939]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-08 19:09:23) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/posts/1]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:09:24) [GET]
+  Parameters: {"id"=>"1", "_"=>"1255043364203"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1255043364203]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-08 19:10:21) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/posts/1]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:10:21) [GET]
+  Parameters: {"id"=>"1", "_"=>"1255043421894"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1255043421894]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-08 19:10:24) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Rendered shared/_cookie_info (0.1ms)
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:10:48) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (2.3ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (2.3ms)
+Rendered shared/_cookie_info (0.6ms)
+Completed in 371ms (View: 359, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:10:49) [GET]
+  Parameters: {"id"=>"1", "_"=>"1255043448964"}
+Completed in 92ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1255043448964]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:14:21) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.8ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.3ms)
+Rendered shared/_cookie_info (0.1ms)
+Completed in 5638ms (View: 5633, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:14:28) [GET]
+  Parameters: {"id"=>"2", "_"=>"1255043668221"}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1255043668221]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:15:26) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.8ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (2.5ms)
+Rendered shared/_cookie_info (0.1ms)
+Completed in 5697ms (View: 5692, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:15:32) [GET]
+  Parameters: {"id"=>"1", "_"=>"1255043732159"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1255043732159]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:16:19) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.9ms)
+
+ActionView::TemplateError (undefined method `name' for "okoepp (Olivia Marie Koepp)\n      http://twitter.com/okoepp":String) on line #3 of app/views/shared/_tweets_list.html.erb:
+1: <ul id="tweet_list">
+2: <% @tweets.items[0..4].each{ |tweet|%>
+3: 	<li><%= link_to truncate("#{tweet.author.name}| #{tweet.title}", 80), tweet.link, {:class => 'tweet_list_link'} %></li>
+4: <%}%>
+5: </ul>
+6: 
+
+    app/views/shared/_tweets_list.html.erb:3
+    app/views/shared/_tweets_list.html.erb:2:in `each'
+    app/views/shared/_tweets_list.html.erb:2
+    app/helpers/application_helper.rb:28:in `tweet_list'
+    app/views/content/index.html.erb:6
+
+Rendered rescues/_trace (44.8ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:16:40) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.9ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (2.4ms)
+Rendered shared/_cookie_info (0.1ms)
+Completed in 5582ms (View: 5577, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:16:46) [GET]
+  Parameters: {"id"=>"1", "_"=>"1255043806022"}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1255043806022]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:17:27) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.8ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (2.0ms)
+Rendered shared/_cookie_info (0.1ms)
+Completed in 5379ms (View: 5374, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:17:33) [GET]
+  Parameters: {"id"=>"1", "_"=>"1255043853548"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1255043853548]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-08 19:18:08) [GET]
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Rendered shared/_cookie_info (0.1ms)
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-08 19:18:11) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Rendered shared/_cookie_info (0.1ms)
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-08 19:20:27) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"hsmIUMaxWHCHdmhIwwlbDEk69BoyMtr783Nhya6i6L0=", "post"=>{"body"=>"<img src=\"/images/bunny_pancake.jpg\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\r\n                                                                                 ", "title"=>"Eating pancakes actually burns calories!", "published"=>"0"}}
+  [4;35;1mPost Create (0.5ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "published", "created_at") VALUES('2009-10-08 23:20:27', 'Eating pancakes actually burns calories!', '<img src="/images/bunny_pancake.jpg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ ', 'f', '2009-10-08 23:20:27')[0m
+Redirected to http://localhost:3000/posts/3
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-08 19:20:27) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 77ms (View: 72, DB: 0) | 200 OK [http://localhost/posts/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 19:20:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/bunny_pancake.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:20:27) [GET]
+  Parameters: {"id"=>"3", "_"=>"1255044027496"}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/3?_=1255044027496]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-08 19:20:31) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+Rendered shared/_cookie_info (0.1ms)
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/posts/3/edit]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-08 19:20:53) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/3]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:20:53) [GET]
+  Parameters: {"id"=>"3", "_"=>"1255044053622"}
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/3?_=1255044053622]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:20:58) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.8ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.5ms)
+Rendered shared/_cookie_info (0.1ms)
+Completed in 5604ms (View: 5598, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:21:04) [GET]
+  Parameters: {"id"=>"2", "_"=>"1255044064471"}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1255044064471]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:21:06) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.8ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.6ms)
+Rendered shared/_cookie_info (0.1ms)
+Completed in 375ms (View: 370, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:21:07) [GET]
+  Parameters: {"id"=>"3", "_"=>"1255044067414"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/3?_=1255044067414]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:25:58) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (2.3ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (2.3ms)
+Rendered shared/_cookie_info (0.6ms)
+
+ActionView::TemplateError (uninitialized constant ApplicationHelper::Posts) on line #102 of app/views/layouts/application.html.erb:
+99: 					 </div>  
+100: 					<%= personal_info %>  
+101: 					<h3>Posts</h3>
+102: 					<%=posts_list%>         
+103: 		</div>            
+104: 	    <div id="footer">
+105: 	    	<p><a href="mailto:hbeaver@rubyslacker.com">Hank Beaver</a> - ATLRUG - October 14, 2009<br/><%=pretty_time%> </p> 
+
+    app/helpers/application_helper.rb:25:in `posts_list'
+    app/views/layouts/application.html.erb:102
+
+Rendered rescues/_trace (36.6ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:26:16) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.8ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.8ms)
+Rendered shared/_cookie_info (0.1ms)
+
+ActionView::TemplateError (undefined local variable or method `all' for #<ActionView::Base:0x241abc0>) on line #102 of app/views/layouts/application.html.erb:
+99: 					 </div>  
+100: 					<%= personal_info %>  
+101: 					<h3>Posts</h3>
+102: 					<%=posts_list%>         
+103: 		</div>            
+104: 	    <div id="footer">
+105: 	    	<p><a href="mailto:hbeaver@rubyslacker.com">Hank Beaver</a> - ATLRUG - October 14, 2009<br/><%=pretty_time%> </p> 
+
+    app/helpers/application_helper.rb:25:in `posts_list'
+    app/views/layouts/application.html.erb:102
+
+Rendered rescues/_trace (35.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:26:39) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.8ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+
+ActionView::TemplateError (Missing template shared/_post_list.erb in view path app/views) on line #102 of app/views/layouts/application.html.erb:
+99: 					 </div>  
+100: 					<%= personal_info %>  
+101: 					<h3>Posts</h3>
+102: 					<%=posts_list%>         
+103: 		</div>            
+104: 	    <div id="footer">
+105: 	    	<p><a href="mailto:hbeaver@rubyslacker.com">Hank Beaver</a> - ATLRUG - October 14, 2009<br/><%=pretty_time%> </p> 
+
+    app/helpers/application_helper.rb:26:in `posts_list'
+    app/views/layouts/application.html.erb:102
+
+Rendered rescues/_trace (36.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:26:55) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (1.0ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+
+ActionView::TemplateError (post_url failed to generate from {:controller=>"posts", :action=>"show"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["posts", :id] - are they all satisfied?) on line #3 of app/views/shared/_post_list.html.erb:
+1: <ul>
+2: 	<% posts.each{|post|%>
+3: 	<li><%= link_to post.title, post_path, :id => post.id%></li>
+4: 	<%}%>
+5: </ul>
+
+    (eval):16:in `post_path'
+    app/views/shared/_post_list.html.erb:3
+    app/views/shared/_post_list.html.erb:2:in `each'
+    app/views/shared/_post_list.html.erb:2
+    app/helpers/application_helper.rb:26:in `posts_list'
+    app/views/layouts/application.html.erb:102
+
+Rendered rescues/_trace (45.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:27:47) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.8ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+ERROR: compiling _run_erb_app47views47shared47_post_list46html46erb_locals_object_post_list_posts RAISED compile error
+/Users/hbeaver/code/varnish_demo/app/views/shared/_post_list.html.erb:3: syntax error, unexpected tASSOC, expecting '}'
+...post.title, {post_path, :id => post.id} ).to_s); @output_buf...
+                              ^
+/Users/hbeaver/code/varnish_demo/app/views/shared/_post_list.html.erb:3: syntax error, unexpected '}', expecting ')'
+...e, {post_path, :id => post.id} ).to_s); @output_buffer.conca...
+                              ^
+Function body:           def _run_erb_app47views47shared47_post_list46html46erb_locals_object_post_list_posts(local_assigns)
+            old_output_buffer = output_buffer;posts = local_assigns[:posts];post_list = local_assigns[:post_list];object = local_assigns[:object];;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<ul>\n"
+@output_buffer.concat "\t";  posts.each{|post|; @output_buffer.concat "\n"
+@output_buffer.concat "\t<li>"; @output_buffer.concat(( link_to post.title, {post_path, :id => post.id} ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "\t"; }; @output_buffer.concat "\n"
+@output_buffer.concat "</ul>"; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/hbeaver/code/varnish_demo/app/views/shared/_post_list.html.erb:8:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable_partial.rb:20:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable_partial.rb:19:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/partials.rb:184:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:262:in `render'
+/Users/hbeaver/code/varnish_demo/app/helpers/application_helper.rb:26:in `posts_list'
+/Users/hbeaver/code/varnish_demo/app/views/layouts/application.html.erb:102:in `_run_erb_app47views47layouts47application46html46erb'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:34:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:34:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:301:in `with_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:30:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:347:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:257:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:941:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1322:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1328:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/hbeaver/code/varnish_demo/app/views/shared/_post_list.html.erb:3: syntax error, unexpected tASSOC, expecting '}'
+...post.title, {post_path, :id => post.id} ).to_s); @output_buf...
+                              ^
+/Users/hbeaver/code/varnish_demo/app/views/shared/_post_list.html.erb:3: syntax error, unexpected '}', expecting ')'
+...e, {post_path, :id => post.id} ).to_s); @output_buffer.conca...
+                              ^) on line #3 of app/views/shared/_post_list.html.erb:
+1: <ul>
+2: 	<% posts.each{|post|%>
+3: 	<li><%= link_to post.title, {post_path, :id => post.id} %></li>
+4: 	<%}%>
+5: </ul>
+
+    app/views/shared/_post_list.html.erb:8:in `compile!'
+    app/helpers/application_helper.rb:26:in `posts_list'
+    app/views/layouts/application.html.erb:102
+
+Rendered rescues/_trace (40.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:28:08) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.8ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.9ms)
+Completed in 608ms (View: 602, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:28:14) [GET]
+  Parameters: {"id"=>"2", "_"=>"1255044494776"}
+Completed in 64ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1255044494776]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-08 19:28:23) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 78ms (View: 72, DB: 1) | 200 OK [http://localhost/posts/3]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:28:23) [GET]
+  Parameters: {"id"=>"3", "_"=>"1255044503739"}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/3?_=1255044503739]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:29:45) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/index
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #1 of app/views/content/index.html.erb:
+1: <%= view_post(@random_post.id) %>  
+2: 
+3: <h2>Today's tweets about 'ghosts'</h2>  
+4: 
+
+    app/views/content/index.html.erb:1
+
+Rendered rescues/_trace (33.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:30:04) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.9ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 5407ms (View: 5402, DB: 1) | 200 OK [http://localhost/content/index/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:30:09) [GET]
+  Parameters: {"id"=>"2", "_"=>"1255044609681"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1255044609681]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:30:13) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (67.5ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 418ms (View: 410, DB: 1) | 200 OK [http://localhost/content/index/3]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:30:14) [GET]
+  Parameters: {"id"=>"3", "_"=>"1255044614253"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/3?_=1255044614253]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:30:50) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (1.0ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.5ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+ERROR: compiling _run_erb_app47views47shared47_post_list46html46erb_locals_object_post_list_posts RAISED compile error
+/Users/hbeaver/code/varnish_demo/app/views/shared/_post_list.html.erb:3: syntax error, unexpected ')', expecting '}'
+...ction => 'index', :id => post) ).to_s); @output_buffer.conca...
+                              ^
+Function body:           def _run_erb_app47views47shared47_post_list46html46erb_locals_object_post_list_posts(local_assigns)
+            old_output_buffer = output_buffer;posts = local_assigns[:posts];post_list = local_assigns[:post_list];object = local_assigns[:object];;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<ul>\n"
+@output_buffer.concat "\t";  posts.each{|post|; @output_buffer.concat "\n"
+@output_buffer.concat "\t<li>"; @output_buffer.concat(( link_to post.title, {:controller => 'content', :action => 'index', :id => post) ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "\t"; }; @output_buffer.concat "\n"
+@output_buffer.concat "</ul>"; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/hbeaver/code/varnish_demo/app/views/shared/_post_list.html.erb:8:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable_partial.rb:20:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable_partial.rb:19:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/partials.rb:184:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:262:in `render'
+/Users/hbeaver/code/varnish_demo/app/helpers/application_helper.rb:26:in `posts_list'
+/Users/hbeaver/code/varnish_demo/app/views/layouts/application.html.erb:102:in `_run_erb_app47views47layouts47application46html46erb'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:34:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:34:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:301:in `with_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:30:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:347:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:257:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:941:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1322:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1328:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/hbeaver/code/varnish_demo/app/views/shared/_post_list.html.erb:3: syntax error, unexpected ')', expecting '}'
+...ction => 'index', :id => post) ).to_s); @output_buffer.conca...
+                              ^) on line #3 of app/views/shared/_post_list.html.erb:
+1: <ul>
+2: 	<% posts.each{|post|%>
+3: 	<li><%= link_to post.title, {:controller => 'content', :action => 'index', :id => post) %></li>
+4: 	<%}%>
+5: </ul>
+
+    app/views/shared/_post_list.html.erb:8:in `compile!'
+    app/helpers/application_helper.rb:26:in `posts_list'
+    app/views/layouts/application.html.erb:102
+
+Rendered rescues/_trace (41.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:31:07) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.8ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" [0m
+ERROR: compiling _run_erb_app47views47shared47_post_list46html46erb_locals_object_post_list_posts RAISED compile error
+/Users/hbeaver/code/varnish_demo/app/views/shared/_post_list.html.erb:3: syntax error, unexpected ')', expecting '}'
+...'index', :id => post}) ).to_s); @output_buffer.concat "</li>...
+                              ^
+Function body:           def _run_erb_app47views47shared47_post_list46html46erb_locals_object_post_list_posts(local_assigns)
+            old_output_buffer = output_buffer;posts = local_assigns[:posts];post_list = local_assigns[:post_list];object = local_assigns[:object];;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<ul>\n"
+@output_buffer.concat "\t";  posts.each{|post|; @output_buffer.concat "\n"
+@output_buffer.concat "\t<li>"; @output_buffer.concat(( link_to post.title, {:controller => 'content', :action => 'index', :id => post}) ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "\t"; }; @output_buffer.concat "\n"
+@output_buffer.concat "</ul>"; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/hbeaver/code/varnish_demo/app/views/shared/_post_list.html.erb:8:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable_partial.rb:20:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable_partial.rb:19:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/partials.rb:184:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:262:in `render'
+/Users/hbeaver/code/varnish_demo/app/helpers/application_helper.rb:26:in `posts_list'
+/Users/hbeaver/code/varnish_demo/app/views/layouts/application.html.erb:102:in `_run_erb_app47views47layouts47application46html46erb'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:34:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:34:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:301:in `with_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:30:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:347:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:257:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:941:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1322:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1328:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/hbeaver/code/varnish_demo/app/views/shared/_post_list.html.erb:3: syntax error, unexpected ')', expecting '}'
+...'index', :id => post}) ).to_s); @output_buffer.concat "</li>...
+                              ^) on line #3 of app/views/shared/_post_list.html.erb:
+1: <ul>
+2: 	<% posts.each{|post|%>
+3: 	<li><%= link_to post.title, {:controller => 'content', :action => 'index', :id => post}) %></li>
+4: 	<%}%>
+5: </ul>
+
+    app/views/shared/_post_list.html.erb:8:in `compile!'
+    app/helpers/application_helper.rb:26:in `posts_list'
+    app/views/layouts/application.html.erb:102
+
+Rendered rescues/_trace (40.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:31:19) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.8ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.5ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+ERROR: compiling _run_erb_app47views47shared47_post_list46html46erb_locals_object_post_list_posts RAISED compile error
+/Users/hbeaver/code/varnish_demo/app/views/shared/_post_list.html.erb:3: syntax error, unexpected ')', expecting '}'
+...dex', :id => post.id}) ).to_s); @output_buffer.concat "</li>...
+                              ^
+Function body:           def _run_erb_app47views47shared47_post_list46html46erb_locals_object_post_list_posts(local_assigns)
+            old_output_buffer = output_buffer;posts = local_assigns[:posts];post_list = local_assigns[:post_list];object = local_assigns[:object];;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<ul>\n"
+@output_buffer.concat "\t";  posts.each{|post|; @output_buffer.concat "\n"
+@output_buffer.concat "\t<li>"; @output_buffer.concat(( link_to post.title, {:controller => 'content', :action => 'index', :id => post.id}) ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "\t"; }; @output_buffer.concat "\n"
+@output_buffer.concat "</ul>"; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/hbeaver/code/varnish_demo/app/views/shared/_post_list.html.erb:8:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable_partial.rb:20:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable_partial.rb:19:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/partials.rb:184:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:262:in `render'
+/Users/hbeaver/code/varnish_demo/app/helpers/application_helper.rb:26:in `posts_list'
+/Users/hbeaver/code/varnish_demo/app/views/layouts/application.html.erb:102:in `_run_erb_app47views47layouts47application46html46erb'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:34:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:34:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:301:in `with_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:30:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:347:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:257:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:941:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1322:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1328:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/hbeaver/code/varnish_demo/app/views/shared/_post_list.html.erb:3: syntax error, unexpected ')', expecting '}'
+...dex', :id => post.id}) ).to_s); @output_buffer.concat "</li>...
+                              ^) on line #3 of app/views/shared/_post_list.html.erb:
+1: <ul>
+2: 	<% posts.each{|post|%>
+3: 	<li><%= link_to post.title, {:controller => 'content', :action => 'index', :id => post.id}) %></li>
+4: 	<%}%>
+5: </ul>
+
+    app/views/shared/_post_list.html.erb:8:in `compile!'
+    app/helpers/application_helper.rb:26:in `posts_list'
+    app/views/layouts/application.html.erb:102
+
+Rendered rescues/_trace (41.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:31:47) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (1.0ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (1.2ms)
+Completed in 626ms (View: 620, DB: 1) | 200 OK [http://localhost/content/index/3]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:31:48) [GET]
+  Parameters: {"id"=>"3", "_"=>"1255044708745"}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/3?_=1255044708745]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:31:56) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.8ms)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+DEPRECATION WARNING: truncate takes an option hash instead of separate length and omission arguments. (called from _run_erb_app47views47shared47_tweets_list46html46erb_locals_object_tweets_list at /Users/hbeaver/code/varnish_demo/app/views/shared/_tweets_list.html.erb:3)
+Rendered shared/_tweets_list (1.5ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 5634ms (View: 5629, DB: 1) | 200 OK [http://localhost/content/index/1]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:32:02) [GET]
+  Parameters: {"id"=>"1", "_"=>"1255044722319"}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1255044722319]
+
+
+Processing ContentController#index (for 127.0.0.1 at 2009-10-08 19:33:17) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering content/index
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #1 of app/views/content/index.html.erb:
+1: <%= view_post(@post.id) %>  
+2: 
+3: <h2>Today's tweets about 'ghosts'</h2>  
+4: 
+
+    app/views/content/index.html.erb:1
+
+Rendered rescues/_trace (90.8ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 19:33:50) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+
+ActionView::MissingTemplate (Missing template content/home.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 19:34:01) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (2.2ms)
+Rendered shared/_tweets_list (1.3ms)
+Rendered shared/_cookie_info (0.6ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (1.1ms)
+Completed in 5413ms (View: 5408, DB: 1) | 200 OK [http://localhost/content/home/1]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:34:07) [GET]
+  Parameters: {"id"=>"1", "_"=>"1255044846998"}
+Completed in 60ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1255044846998]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 19:34:11) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.9ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 788ms (View: 783, DB: 1) | 200 OK [http://localhost/content/home/3]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:34:12) [GET]
+  Parameters: {"id"=>"3", "_"=>"1255044852621"}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/3?_=1255044852621]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 19:34:24) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.8ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 368ms (View: 362, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 19:34:24) [GET]
+  Parameters: {"id"=>"1", "_"=>"1255044864756"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1255044864756]
