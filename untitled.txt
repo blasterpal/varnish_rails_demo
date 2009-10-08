@@ -1,0 +1,9 @@
+Feature: Add custom Video/Embed text area ETS.  (Finished)
+
+Feature Contact list should sort alphabetically (Finished)
+
+feature Press List band photo links to embed. (Finished)
+
+feature Front event list should show a video link (Finished)
+
+feature Increase video photo popup width slightly (Finished)

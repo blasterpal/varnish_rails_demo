@@ -1,0 +1,1335 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-30 20:11:11) [GET]
+
+SyntaxError (/Users/hbeaver/code/varnish_demo/app/controllers/posts_controller.rb:3: odd number list for Hash):
+  
+
+Rendered rescues/_trace (77.2ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-09-30 20:12:01) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: posts: SELECT * FROM "posts" [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: posts: SELECT * FROM "posts" ):
+  app/controllers/posts_controller.rb:8:in `index'
+
+Rendered rescues/_trace (36.7ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (2.4ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (2.1ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePosts (20090930163522)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "body" text, "published" boolean, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090930163522')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("posts")[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-09-30 20:16:35) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 109ms (View: 105, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-09-30 20:16:53) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-09-30 20:16:59) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-09-30 20:17:00) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-09-30 20:17:00) [GET]
+  [4;36;1mPost Load (1.8ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 7ms (View: 1, DB: 2) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-09-30 20:17:00) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-09-30 20:17:01) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-09-30 20:17:01) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-09-30 20:17:01) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-09-30 20:17:05) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-06 12:24:26) [GET]
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 173ms (View: 166, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-06 12:24:32) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 12:00:14) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 22ms (View: 5, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 12:00:25) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 12:00:29) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 12:00:30) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 12:00:31) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 12:00:33) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 12:00:35) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 12:00:38) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 14:02:54) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 70ms (View: 65, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 14:22:46) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 16:06:52) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 16:07:24) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 16:08:00) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 16:08:46) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 20:17:17) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 68ms (View: 64, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-07 20:17:19) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 27ms (View: 23, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#images to png (for 127.0.0.1 at 2009-10-07 20:17:19) [GET]
+  Parameters: {"id"=>"bolt"}
+
+ActionController::UnknownAction (No action responded to images. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#images to png (for 127.0.0.1 at 2009-10-07 20:17:19) [GET]
+  Parameters: {"id"=>"main-bg"}
+
+ActionController::UnknownAction (No action responded to images. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#images to jpg (for 127.0.0.1 at 2009-10-07 20:17:19) [GET]
+  Parameters: {"id"=>"footer"}
+
+ActionController::UnknownAction (No action responded to images. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-07 20:17:51) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#images to png (for 127.0.0.1 at 2009-10-07 20:17:51) [GET]
+  Parameters: {"id"=>"bolt"}
+
+ActionController::UnknownAction (No action responded to images. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#images to png (for 127.0.0.1 at 2009-10-07 20:17:51) [GET]
+  Parameters: {"id"=>"main-bg"}
+
+ActionController::UnknownAction (No action responded to images. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#images to jpg (for 127.0.0.1 at 2009-10-07 20:17:51) [GET]
+  Parameters: {"id"=>"footer"}
+
+ActionController::UnknownAction (No action responded to images. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 20:17:55) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#images to png (for 127.0.0.1 at 2009-10-07 20:17:55) [GET]
+  Parameters: {"id"=>"bolt"}
+
+ActionController::UnknownAction (No action responded to images. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#images to png (for 127.0.0.1 at 2009-10-07 20:17:55) [GET]
+  Parameters: {"id"=>"main-bg"}
+
+ActionController::UnknownAction (No action responded to images. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#images to jpg (for 127.0.0.1 at 2009-10-07 20:17:55) [GET]
+  Parameters: {"id"=>"footer"}
+
+ActionController::UnknownAction (No action responded to images. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 20:18:37) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 70ms (View: 1, DB: 0) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#images to png (for 127.0.0.1 at 2009-10-07 20:18:37) [GET]
+  Parameters: {"id"=>"bolt"}
+
+ActionController::UnknownAction (No action responded to images. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#images to png (for 127.0.0.1 at 2009-10-07 20:18:37) [GET]
+  Parameters: {"id"=>"main-bg"}
+
+ActionController::UnknownAction (No action responded to images. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#images to jpg (for 127.0.0.1 at 2009-10-07 20:18:37) [GET]
+  Parameters: {"id"=>"footer"}
+
+ActionController::UnknownAction (No action responded to images. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 20:19:09) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-07 20:19:13) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-07 20:20:21) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"hsmIUMaxWHCHdmhIwwlbDEk69BoyMtr783Nhya6i6L0=", "post"=>{"body"=>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.     \r\n\r\n", "title"=>"Boy eats old leg!", "published"=>"0"}}
+  [4;36;1mPost Create (18.5ms)[0m   [0;1mINSERT INTO "posts" ("updated_at", "title", "body", "published", "created_at") VALUES('2009-10-08 00:20:21', 'Boy eats old leg!', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+
+', 'f', '2009-10-08 00:20:21')[0m
+Redirected to http://localhost:3000/posts/1
+Completed in 44ms (DB: 19) | 302 Found [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 20:20:21) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/posts/1]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 20:20:39) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-10-07 20:20:43) [GET]
+Rendering template within layouts/application
+Rendering posts/new
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2009-10-07 20:23:14) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"hsmIUMaxWHCHdmhIwwlbDEk69BoyMtr783Nhya6i6L0=", "post"=>{"body"=>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.     \r\n\r\n<img src=\"/images/brain2.jpg\"/>\r\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.     ", "title"=>"Brain discovered inside man's head!", "published"=>"0"}}
+  [4;35;1mPost Create (0.4ms)[0m   [0mINSERT INTO "posts" ("updated_at", "title", "body", "published", "created_at") VALUES('2009-10-08 00:23:14', 'Brain discovered inside man''s head!', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+
+<img src="/images/brain2.jpg"/>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ', 'f', '2009-10-08 00:23:14')[0m
+Redirected to http://localhost:3000/posts/2
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 20:23:14) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2009-10-07 20:23:23) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/edit
+Completed in 40ms (View: 35, DB: 0) | 200 OK [http://localhost/posts/2/edit]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 20:23:40) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 20:23:45) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 20:24:00) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 20:24:15) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 20:24:17) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 20:25:53) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 20:28:19) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 20:29:49) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 20:30:28) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-07 20:30:34) [GET]
+  Parameters: {"post_id"=>""}
+
+ActionController::RoutingError (No route matches "/fragments/set_recently_viewed" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 20:31:03) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 20:31:59) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 20:41:58) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 20:47:58) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 20:50:45) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 20:52:47) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 20:52:56) [GET]
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 20:53:28) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 20:53:59) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 20:57:54) [GET]
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Rendered shared/_cookie_info (0.5ms)
+Completed in 41ms (View: 36, DB: 1) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 20:58:01) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-07 20:58:01) [GET]
+  Parameters: {"post_id"=>""}
+
+ActionController::RoutingError (No route matches "/fragments/set_recently_viewed" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 20:58:38) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/posts/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-07 20:58:39) [GET]
+  Parameters: {"id"=>""}
+
+ActionController::RoutingError (No route matches "/fragments/viewed_posts" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-07 20:59:31) [GET]
+
+ActionController::RoutingError (No route matches "/viewed_posts/1" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-07 20:59:40) [GET]
+
+ActionController::RoutingError (No route matches "/fragments/viewed_posts/1" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-07 21:00:17) [GET]
+
+ActionController::RoutingError (No route matches "/fragments/viewed_posts/1" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:00:29) [GET]
+  Parameters: {"id"=>"1"}
+
+ActionView::MissingTemplate (Missing template fragments/viewed_posts.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:00:51) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:00:53) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:01:08) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:01:09) [GET]
+  Parameters: {"id"=>"1"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-07 21:01:13) [GET]
+
+ActionController::RoutingError (No route matches "/viewed_posts/1" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:01:14) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.5ms)
+Completed in 21ms (View: 15, DB: 0) | 200 OK [http://localhost/posts/1]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:01:14) [GET]
+  Parameters: {"id"=>""}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts?id=]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 21:01:14) [GET]
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Rendered shared/_cookie_info (0.1ms)
+Completed in 12ms (View: 8, DB: 1) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 21:01:18) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Rendered shared/_cookie_info (0.1ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 21:05:31) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Rendered shared/_cookie_info (0.5ms)
+Completed in 17ms (View: 13, DB: 1) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 21:06:15) [GET]
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Rendered shared/_cookie_info (0.1ms)
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 21:06:21) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Rendered shared/_cookie_info (0.1ms)
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 21:06:24) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Rendered shared/_cookie_info (0.1ms)
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 21:06:36) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Rendered shared/_cookie_info (0.1ms)
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 21:06:44) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Rendered shared/_cookie_info (0.1ms)
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 21:07:40) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Rendered shared/_cookie_info (0.1ms)
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/posts/]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:07:46) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/1]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:07:47) [GET]
+  Parameters: {"id"=>""}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts?id=]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 21:07:52) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Rendered shared/_cookie_info (0.1ms)
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:07:54) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:07:54) [GET]
+  Parameters: {"id"=>""}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts?id=]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:08:15) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:08:15) [GET]
+  Parameters: {"id"=>""}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts?id=]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:08:32) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:08:32) [GET]
+  Parameters: {"id"=>""}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts?id=]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:08:46) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:08:46) [GET]
+  Parameters: {"id"=>""}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts?id=]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:09:06) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:09:07) [GET]
+  Parameters: {"id"=>""}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts?id=]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:09:33) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:09:33) [GET]
+  Parameters: {"id"=>""}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts?id=]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:10:02) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:10:03) [GET]
+  Parameters: {"id"=>""}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts?id=]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:11:02) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:11:03) [GET]
+  Parameters: {"id"=>""}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts?id=]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:11:16) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:11:16) [GET]
+  Parameters: {"id"=>""}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts?id=]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:13:14) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.5ms)
+Completed in 33ms (View: 27, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:13:15) [GET]
+  Parameters: {"id"=>""}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts?id=]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:13:44) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:13:44) [GET]
+  Parameters: {"id"=>""}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts?id=]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:13:54) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:13:55) [GET]
+  Parameters: {"id"=>""}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts?id=]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:14:01) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 69ms (View: 7, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:14:02) [GET]
+  Parameters: {"id"=>""}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts?id=]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:16:23) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:16:23) [GET]
+  Parameters: {"id"=>""}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts?id=]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:18:18) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:18:18) [GET]
+  Parameters: {"id"=>""}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts?id=]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:18:21) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:18:21) [GET]
+  Parameters: {"id"=>""}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts?id=]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:19:07) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:19:08) [GET]
+  Parameters: {"id"=>""}
+
+RuntimeError (params[:id]: ):
+  app/controllers/fragments_controller.rb:9:in `viewed_posts'
+
+Rendered rescues/_trace (93.5ms)
+Rendered rescues/_request_and_response (1.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:19:09) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:19:09) [GET]
+  Parameters: {"id"=>""}
+
+RuntimeError (params[:id]: ):
+  app/controllers/fragments_controller.rb:9:in `viewed_posts'
+
+Rendered rescues/_trace (30.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:19:18) [GET]
+  Parameters: {"id"=>""}
+
+RuntimeError (params[:id]: ):
+  app/controllers/fragments_controller.rb:9:in `viewed_posts'
+
+Rendered rescues/_trace (29.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:20:15) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+ERROR: compiling _run_erb_app47views47posts47show46html46erb RAISED compile error
+/Users/hbeaver/code/varnish_demo/app/views/posts/show.html.erb:25: syntax error, unexpected kENSURE, expecting ')'
+/Users/hbeaver/code/varnish_demo/app/views/posts/show.html.erb:27: syntax error, unexpected kEND, expecting ')'
+Function body:           def _run_erb_app47views47posts47show46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<p>\n"
+@output_buffer.concat "  <b>Title:</b>\n"
+@output_buffer.concat "  "; @output_buffer.concat((h @post.title ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</p>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<p>\n"
+@output_buffer.concat "  <b>Body:</b>\n"
+@output_buffer.concat "  "; @output_buffer.concat(( @post.body ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</p>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<p>\n"
+@output_buffer.concat "  <b>Published:</b>\n"
+@output_buffer.concat "  "; @output_buffer.concat((h @post.published ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</p>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( link_to 'Edit', edit_post_path(@post) ).to_s); @output_buffer.concat " |\n"
+@output_buffer.concat(( link_to 'Back', posts_path ).to_s); @output_buffer.concat "    \n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<div id=\"recently_viewed_cookie\">\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "<script>\n"
+@output_buffer.concat "  $.ajax({url:\"/fragments/viewed_posts/"; @output_buffer.concat((#{@post.id}).to_s); @output_buffer.concat "\" ,cache:false,success: function(html){$('#recently_viewed_cookie').append(html);}});           \n"
+@output_buffer.concat "</script>"; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/hbeaver/code/varnish_demo/app/views/posts/show.html.erb:27:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:343:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:257:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:947:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:135:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:135:in `custom'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:179:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:179:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:173:in `each'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:173:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/Users/hbeaver/code/varnish_demo/app/controllers/posts_controller.rb:22:in `show'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/hbeaver/.gem/ruby/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/hbeaver/code/varnish_demo/app/views/posts/show.html.erb:25: syntax error, unexpected kENSURE, expecting ')'
+/Users/hbeaver/code/varnish_demo/app/views/posts/show.html.erb:27: syntax error, unexpected kEND, expecting ')') on line #25 of app/views/posts/show.html.erb:
+22: <script>
+23:   $.ajax({url:"/fragments/viewed_posts/<%=#{@post.id}%>" ,cache:false,success: function(html){$('#recently_viewed_cookie').append(html);}});           
+24: </script>
+
+    app/views/posts/show.html.erb:27:in `compile!'
+    app/controllers/posts_controller.rb:22:in `show'
+
+Rendered rescues/_trace (36.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:20:37) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:20:37) [GET]
+  Parameters: {"id"=>"2", "_"=>"1254964837890"}
+
+RuntimeError (params[:id]: 2):
+  app/controllers/fragments_controller.rb:9:in `viewed_posts'
+
+Rendered rescues/_trace (29.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:20:52) [GET]
+  Parameters: {"id"=>"2", "_"=>"1254964837890"}
+
+RuntimeError (params[:id]: 2):
+  app/controllers/fragments_controller.rb:9:in `viewed_posts'
+
+Rendered rescues/_trace (92.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:21:22) [GET]
+  Parameters: {"id"=>"2", "_"=>"1254964837890"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1254964837890]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:21:25) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:21:25) [GET]
+  Parameters: {"id"=>"2", "_"=>"1254964885520"}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1254964885520]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:21:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/1]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:21:32) [GET]
+  Parameters: {"id"=>"1", "_"=>"1254964892889"}
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1254964892889]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:21:37) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/1]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:21:37) [GET]
+  Parameters: {"id"=>"1", "_"=>"1254964897817"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1254964897817]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 21:22:49) [GET]
+  [4;36;1mPost Load (0.7ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Rendered shared/_cookie_info (0.6ms)
+Completed in 26ms (View: 21, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:25:23) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/posts/1]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:25:24) [GET]
+  Parameters: {"id"=>"1", "_"=>"1254965123990"}
+Completed in 139ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/1?_=1254965123990]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-07 21:25:28) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" [0m
+Rendering template within layouts/application
+Rendering posts/index
+Rendered shared/_cookie_info (0.1ms)
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:25:35) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:25:35) [GET]
+  Parameters: {"id"=>"2", "_"=>"1254965135867"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1254965135867]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-10-07 21:25:43) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+Rendered shared/_cookie_info (0.1ms)
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/posts/2]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-07 21:25:43) [GET]
+  Parameters: {"id"=>"2", "_"=>"1254965143586"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/2?_=1254965143586]

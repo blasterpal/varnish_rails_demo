@@ -1,6 +1,6 @@
 class PostsController < ApplicationController      
   
-  before_filter :cache_control, :only => {:show}
+  #before_filter :cache_control, :only => {:show}
   
   # GET /posts
   # GET /posts.xml
@@ -15,7 +15,8 @@ class PostsController < ApplicationController
 
   # GET /posts/1
   # GET /posts/1.xml
-  def show
+  def show 
+    #setting cookie will not work with Varnish caching it!!!
     @post = Post.find(params[:id])
 
     respond_to do |format|
