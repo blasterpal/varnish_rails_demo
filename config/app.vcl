@@ -103,7 +103,6 @@ sub vcl_fetch {
    # 
    #this tells Varnish to not cache b/c this obj wants to set a cookie.
    if (obj.http.Set-Cookie) {  
-
        return (pass);
    } 
     
