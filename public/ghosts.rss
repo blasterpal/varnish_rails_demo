@@ -1,0 +1,238 @@
+                                                              <?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/ghosts</id>
+  <link type="text/html" href="http://search.twitter.com/search?q=ghosts" rel="alternate"/>
+  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?q=ghosts" rel="self"/>
+  <title>ghosts - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" href="http://search.twitter.com/opensearch.xml" rel="search"/>
+  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?q=ghosts&amp;since_id=4733076834" rel="refresh"/>
+  <twitter:warning>since_id removed for pagination.</twitter:warning>
+  <updated>2009-10-09T12:29:27Z</updated>
+  <openSearch:itemsPerPage>15</openSearch:itemsPerPage>
+  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=4733076834&amp;page=2&amp;q=ghosts" rel="next"/>
+  <entry>
+    <id>tag:search.twitter.com,2005:4733076834</id>
+    <published>2009-10-09T12:29:27Z</published>
+    <link type="text/html" href="http://twitter.com/ahhhndre/statuses/4733076834" rel="alternate"/>
+    <title>Car Windows Frosted, Appartment Like a Sauna, Library Voices Hunting Ghosts.</title>
+    <content type="html">Car Windows Frosted, Appartment Like a Sauna, Library Voices Hunting &lt;b&gt;Ghosts&lt;/b&gt;.</content>
+    <updated>2009-10-09T12:29:27Z</updated>
+    <link type="image/png" href="http://a3.twimg.com/profile_images/441769567/popetc_normal.jpg" rel="image"/>
+    <twitter:source>&lt;a href=&quot;http://echofon.com/&quot; rel=&quot;nofollow&quot;&gt;Echofon&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>ahhhndre (andrewanlin)</name>
+      <uri>http://twitter.com/ahhhndre</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:4733066385</id>
+    <published>2009-10-09T12:28:47Z</published>
+    <link type="text/html" href="http://twitter.com/Zodiac_/statuses/4733066385" rel="alternate"/>
+    <title>It's day 9 of 31 days of Ghosts. Today there is a most tasty recipe and the Legend of Sleepy Hollow http://is.gd/46FTN</title>
+    <content type="html">It's day 9 of 31 days of &lt;b&gt;Ghosts&lt;/b&gt;. Today there is a most tasty recipe and the Legend of Sleepy Hollow &lt;a href=&quot;http://is.gd/46FTN&quot;&gt;http://is.gd/46FTN&lt;/a&gt;</content>
+    <updated>2009-10-09T12:28:47Z</updated>
+    <link type="image/png" href="http://a3.twimg.com/profile_images/450230013/newzodismile_normal.jpg" rel="image"/>
+    <twitter:source>&lt;a href=&quot;http://www.seesmic.com/&quot; rel=&quot;nofollow&quot;&gt;Seesmic&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>Zodiac_ (Zodi)</name>
+      <uri>http://twitter.com/Zodiac_</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:4733057251</id>
+    <published>2009-10-09T12:28:12Z</published>
+    <link type="text/html" href="http://twitter.com/jgebrown/statuses/4733057251" rel="alternate"/>
+    <title>&quot;How many times can I push it aside? Is it time I befriended all the ghosts of all the things that haunt me most?&quot; Relient K</title>
+    <content type="html">&amp;quot;How many times can I push it aside? Is it time I befriended all the &lt;b&gt;ghosts&lt;/b&gt; of all the things that haunt me most?&amp;quot; Relient K</content>
+    <updated>2009-10-09T12:28:12Z</updated>
+    <link type="image/png" href="http://a1.twimg.com/profile_images/267237582/jbdrums_normal.jpg" rel="image"/>
+    <twitter:source>&lt;a href=&quot;http://echofon.com/&quot; rel=&quot;nofollow&quot;&gt;Echofon&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>jgebrown (Josh Brown)</name>
+      <uri>http://twitter.com/jgebrown</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:4733017835</id>
+    <published>2009-10-09T12:25:39Z</published>
+    <link type="text/html" href="http://twitter.com/MissLupeVelez/statuses/4733017835" rel="alternate"/>
+    <title>I want to see paranormal activity tonight, but in attempt to be a true original i'm going to rent ghosts of girlfriends past instead.</title>
+    <content type="html">I want to see paranormal activity tonight, but in attempt to be a true original i'm going to rent &lt;b&gt;ghosts&lt;/b&gt; of girlfriends past instead.</content>
+    <updated>2009-10-09T12:25:39Z</updated>
+    <link type="image/png" href="http://a1.twimg.com/profile_images/455957338/4271_92640572050_529562050_2409309_4513529_n_normal.jpg" rel="image"/>
+    <twitter:source>&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>MissLupeVelez (Lupe)</name>
+      <uri>http://twitter.com/MissLupeVelez</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:4733014016</id>
+    <published>2009-10-09T12:25:25Z</published>
+    <link type="text/html" href="http://twitter.com/jmstro/statuses/4733014016" rel="alternate"/>
+    <title>It Pays To Do Research, my #fridayflash for this week. I'm not afraid of ghosts. Are you? http://bit.ly/1WJQOB</title>
+    <content type="html">It Pays To Do Research, my &lt;a href=&quot;http://search.twitter.com/search?q=%23fridayflash&quot;&gt;#fridayflash&lt;/a&gt; for this week. I'm not afraid of &lt;b&gt;ghosts&lt;/b&gt;. Are you? &lt;a href=&quot;http://bit.ly/1WJQOB&quot;&gt;http://bit.ly/1WJQOB&lt;/a&gt;</content>
+    <updated>2009-10-09T12:25:25Z</updated>
+    <link type="image/png" href="http://a1.twimg.com/profile_images/64941296/jonPic3_normal.jpg" rel="image"/>
+    <twitter:source>&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>jmstro (J. M. Strother)</name>
+      <uri>http://twitter.com/jmstro</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:4732902605</id>
+    <published>2009-10-09T12:18:28Z</published>
+    <link type="text/html" href="http://twitter.com/barryspooren/statuses/4732902605" rel="alternate"/>
+    <title>Former Ghosts album luisteren, o.a. met Jamie Stewart van Xiu Xiu: http://bit.ly/3xtXoH</title>
+    <content type="html">Former &lt;b&gt;Ghosts&lt;/b&gt; album luisteren, o.a. met Jamie Stewart van Xiu Xiu: &lt;a href=&quot;http://bit.ly/3xtXoH&quot;&gt;http://bit.ly/3xtXoH&lt;/a&gt;</content>
+    <updated>2009-10-09T12:18:28Z</updated>
+    <link type="image/png" href="http://a1.twimg.com/profile_images/422052404/avartize.com.1036_normal.png" rel="image"/>
+    <twitter:source>&lt;a href=&quot;http://www.tweetdeck.com/&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <twitter:lang>nl</twitter:lang>
+    <author>
+      <name>barryspooren (Barry Spooren)</name>
+      <uri>http://twitter.com/barryspooren</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:4732896260</id>
+    <published>2009-10-09T12:18:05Z</published>
+    <link type="text/html" href="http://twitter.com/georgi_P/statuses/4732896260" rel="alternate"/>
+    <title>watched 'ghosts of girlfriends past' tonight. dont bother.</title>
+    <content type="html">watched '&lt;b&gt;ghosts&lt;/b&gt; of girlfriends past' tonight. dont bother.</content>
+    <updated>2009-10-09T12:18:05Z</updated>
+    <link type="image/png" href="http://a1.twimg.com/profile_images/335847516/Photo_40_normal.jpg" rel="image"/>
+    <twitter:source>&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>georgi_P (Georgina Perry)</name>
+      <uri>http://twitter.com/georgi_P</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:4732821730</id>
+    <published>2009-10-09T12:13:24Z</published>
+    <link type="text/html" href="http://twitter.com/MrBlackFrancis/statuses/4732821730" rel="alternate"/>
+    <title>Passing by the old Rainbow theater...before my time.  Zeppelin ghosts.</title>
+    <content type="html">Passing by the old Rainbow theater...before my time.  Zeppelin &lt;b&gt;ghosts&lt;/b&gt;.</content>
+    <updated>2009-10-09T12:13:24Z</updated>
+    <link type="image/png" href="http://a3.twimg.com/profile_images/119052025/Photo_103_normal.jpg" rel="image"/>
+    <twitter:source>&lt;a href=&quot;http://orangatame.com/products/twitterberry/&quot; rel=&quot;nofollow&quot;&gt;TwitterBerry&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>MrBlackFrancis (Black Francis)</name>
+      <uri>http://twitter.com/MrBlackFrancis</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:4732757505</id>
+    <published>2009-10-09T12:09:13Z</published>
+    <link type="text/html" href="http://twitter.com/24hressay/statuses/4732757505" rel="alternate"/>
+    <title>What is sleep paralysis, and does it explain ghosts? Exclusive new John Dale essay at http://www.24houressay.co.uk/essays/bio/sp.html</title>
+    <content type="html">What is sleep paralysis, and does it explain &lt;b&gt;ghosts&lt;/b&gt;? Exclusive new John Dale essay at &lt;a href=&quot;http://www.24houressay.co.uk/essays/bio/sp.html&quot;&gt;http://www.24houressay.co.uk/essays/bio/sp.html&lt;/a&gt;</content>
+    <updated>2009-10-09T12:09:13Z</updated>
+    <link type="image/png" href="http://a3.twimg.com/profile_images/332925653/iconsmall_normal.jpg" rel="image"/>
+    <twitter:source>&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>24hressay (24houressay.co.uk)</name>
+      <uri>http://twitter.com/24hressay</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:4732719099</id>
+    <published>2009-10-09T12:06:41Z</published>
+    <link type="text/html" href="http://twitter.com/marcamaria/statuses/4732719099" rel="alternate"/>
+    <title>Nada como uma noite com um poltergeist batendo na porta do meu guarda-roupa e abrindo a porta do bicho. Ghosts maleditos.... &#172;&#172;'</title>
+    <content type="html">Nada como uma noite com um poltergeist batendo na porta do meu guarda-roupa e abrindo a porta do bicho. &lt;b&gt;Ghosts&lt;/b&gt; maleditos.... &#172;&#172;'</content>
+    <updated>2009-10-09T12:06:41Z</updated>
+    <link type="image/png" href="http://a3.twimg.com/profile_images/94256169/peixim-ico_normal.png" rel="image"/>
+    <twitter:source>&lt;a href=&quot;http://www.tweetdeck.com/&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</twitter:source>
+    <twitter:lang>pt</twitter:lang>
+    <author>
+      <name>marcamaria (tio .faso)</name>
+      <uri>http://twitter.com/marcamaria</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:4732705522</id>
+    <published>2009-10-09T12:05:50Z</published>
+    <link type="text/html" href="http://twitter.com/BiaGiu/statuses/4732705522" rel="alternate"/>
+    <title>we are ghosts.</title>
+    <content type="html">we are &lt;b&gt;ghosts&lt;/b&gt;.</content>
+    <updated>2009-10-09T12:05:50Z</updated>
+    <link type="image/png" href="http://a3.twimg.com/profile_images/461146871/MeAbacaxii_normal.bmp" rel="image"/>
+    <twitter:source>&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>BiaGiu (BeeGiow Jones)</name>
+      <uri>http://twitter.com/BiaGiu</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:4732703091</id>
+    <published>2009-10-09T12:05:41Z</published>
+    <link type="text/html" href="http://twitter.com/rafaelmerlin/statuses/4732703091" rel="alternate"/>
+    <title>Bom dia twitters, ghosts and good morning governator</title>
+    <content type="html">Bom dia twitters, &lt;b&gt;ghosts&lt;/b&gt; and good morning governator</content>
+    <updated>2009-10-09T12:05:41Z</updated>
+    <link type="image/png" href="http://a1.twimg.com/profile_images/305739842/cataratas_normal.jpg" rel="image"/>
+    <twitter:source>&lt;a href=&quot;http://www.fring.com/twitter/&quot; rel=&quot;nofollow&quot;&gt;fring&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>rafaelmerlin (Rafael Merlin)</name>
+      <uri>http://twitter.com/rafaelmerlin</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:4732686947</id>
+    <published>2009-10-09T12:04:38Z</published>
+    <link type="text/html" href="http://twitter.com/ChrisBowland/statuses/4732686947" rel="alternate"/>
+    <title>Wire is woofing for no apparent reason. Maybe we have ghosts?</title>
+    <content type="html">Wire is woofing for no apparent reason. Maybe we have &lt;b&gt;ghosts&lt;/b&gt;?</content>
+    <updated>2009-10-09T12:04:38Z</updated>
+    <link type="image/png" href="http://a1.twimg.com/profile_images/196962416/IM001994_normal.jpg" rel="image"/>
+    <twitter:source>&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>ChrisBowland (Chris Bowland)</name>
+      <uri>http://twitter.com/ChrisBowland</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:4732681524</id>
+    <published>2009-10-09T12:04:17Z</published>
+    <link type="text/html" href="http://twitter.com/Anne__Bonny/statuses/4732681524" rel="alternate"/>
+    <title>Me be grinnin wiv 'appy fawts of pirates witches ghosts n vampires while i polish me cutlass</title>
+    <content type="html">Me be grinnin wiv 'appy fawts of pirates witches &lt;b&gt;ghosts&lt;/b&gt; n vampires while i polish me cutlass</content>
+    <updated>2009-10-09T12:04:17Z</updated>
+    <link type="image/png" href="http://a1.twimg.com/profile_images/421008554/Calico-Jack_1__normal.jpg" rel="image"/>
+    <twitter:source>&lt;a href=&quot;http://m.twitter.com/&quot; rel=&quot;nofollow&quot;&gt;mobile web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>Anne__Bonny (Anne Bonny)</name>
+      <uri>http://twitter.com/Anne__Bonny</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:4732624980</id>
+    <published>2009-10-09T12:00:46Z</published>
+    <link type="text/html" href="http://twitter.com/nxa0004/statuses/4732624980" rel="alternate"/>
+    <title>@Shahriza_Amir Good luck with all the ghosts in the marina bro</title>
+    <content type="html">&lt;a href=&quot;http://twitter.com/Shahriza_Amir&quot;&gt;@Shahriza_Amir&lt;/a&gt; Good luck with all the &lt;b&gt;ghosts&lt;/b&gt; in the marina bro</content>
+    <updated>2009-10-09T12:00:46Z</updated>
+    <link type="image/png" href="http://a1.twimg.com/profile_images/454291196/tich2_normal.JPG" rel="image"/>
+    <twitter:source>&lt;a href=&quot;http://mobileways.de/gravity&quot; rel=&quot;nofollow&quot;&gt;Gravity&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>nxa0004 (Norhisham Mutalib)</name>
+      <uri>http://twitter.com/nxa0004</uri>
+    </author>
+  </entry>
+</feed>

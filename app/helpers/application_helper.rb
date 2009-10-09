@@ -27,8 +27,10 @@ module ApplicationHelper
   end
   
   def tweet_list
-    feed = 'http://search.twitter.com/search.atom?q=ghosts'
-    @tweets = SimpleRSS.parse open(feed)
+    #feed = 'http://search.twitter.com/search.atom?q=ghosts'  
+    feed = File.open(File.join(RAILS_ROOT, 'public/ghosts.rss'))
+    stagger = rand(5)+ 1
+    @tweets = SimpleRSS.parse feed
     render :partial => 'shared/tweets_list'
   end    
   

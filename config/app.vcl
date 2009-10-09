@@ -93,7 +93,6 @@ sub vcl_fetch {
    # #to be pulled from cache, we need the public set         
    if (obj.http.Cache-Control ~ "public") {
         unset obj.http.Set-Cookie; 
-        unset  obj.http.Etag;
         deliver;
     } 
    # 

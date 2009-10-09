@@ -21,11 +21,15 @@ body{
 	padding:10px;
 	text-align:center;} 
 	
-#sidebar_header{
+.sidebar_header{
 	border-bottom:1px solid #333;
 	background:#ddd;
 	padding:10px;
-	text-align:left;} 
+	}
+
+.top{
+	 border-top:1px solid #333;  
+}	 
 
 #header h1 a{
 	font-size:30px;
@@ -34,19 +38,32 @@ body{
 	 
 	
 #main{   
-	width:723px; 
-	float: left;
 	padding:5px;
-	background:url(/images/main-bg.png) top left repeat;}   
+	background:url(/images/main-bg.png) top left repeat;
+	overflow:hidden;}   
+	
+.content{
+	 width:675px;   
+	float:left;
+} 
+ 
 
 #sidebar{
-	width:140px;
+	width:150px;
 	float: right;
-	text-align:left;
-	color: #000;   
-	margin:0 auto;
+	color: #000;  
 	border:1px solid #333;
 	background:url(/images/main-bg.png) top left repeat;} 
+ 
+#sidebar ul{
+	margin:0;
+	padding:0 5px;
+	list-style-type:none;
+}                
+
+#sidebar ul li{
+	padding:5px 0;
+}
 
 #footer{
 	border-top:1px solid #333;
@@ -69,20 +86,41 @@ ul li{
 }	 
 
 ul#tweet_list li{
-	text-align:left; 
 	font-size:14px;
 	color:#000; 
-	margin:3 0 3 0px;  
+	margin:3 0 3 0px;    
+	padding:5px;
 }  
 
 #tweet_list {
 	color: #fff;
 	background:#111;
-	opacity: 0.7;             
+	opacity: 0.7;  
+	padding:5px;  
+	clear:both;         
+}     
+
+#tweet_list ul{
+	list-style-type:none;
 }
 
 a.tweet_list_link {
 	color:#eee;   
+}            
+
+#sidebar ul li a{
+	color:#00689F;
+}                  
+
+.content img{
+	float:left;
+	padding:5px;
+	margin:5px;
+	border:1px solid #eee;
+}
+p.pretty_time{
+	font-size:11px;
+	font-color:#aaa;
 }
 </style> 
 
@@ -92,22 +130,30 @@ a.tweet_list_link {
 
 <body>
 <div id="container">
-	<div id="header"><h1><%= link_to 'Build a Better, Faster App with Varnish', root_path , {:class => 'header_link'}%></h1></div><!--end header-->
-    <div id="main">
-			<p style="color: green"><%= flash[:notice] %></p>   
-			<%= yield %>
+	<div id="header">
+		<h1><%= link_to 'Build a Better, Faster App with Varnish', root_path , {:class => 'header_link'}%></h1>
+		<p class="pretty_time"><%=pretty_time%></p> 
+	</div><!--end header-->
+    <div id="main">   
+		  <div class="content">
+				<p style="color: green"><%= flash[:notice] %></p>   
+				<%= yield %>       
+			</div>  
+			<div id="sidebar">
+					   <div class="sidebar_header">
+						       Cookie and Personal Info
+						 </div>  
+						<%= personal_info %>  
+						<div class="sidebar_header top"> 
+							 Posts
+						</div>   
+						<%=posts_list%>         
+			</div>
 		</div><!--end main--> 
 
- 	 	<div id="sidebar">
-				   <div id="sidebar_header">
-					       Cookie and Personal Info
-					 </div>  
-					<%= personal_info %>  
-					<h3>Posts</h3>
-					<%=posts_list%>         
-		</div>            
+          
 	    <div id="footer">
-	    	<p><a href="mailto:hbeaver@rubyslacker.com">Hank Beaver</a> - ATLRUG - October 14, 2009<br/><%=pretty_time%> </p> 
+	    	<p><a href="mailto:hbeaver@rubyslacker.com">Hank Beaver</a> - ATLRUG - October 14, 2009</p> 
 			</div><!--end footer-->
 
 </div><!--end container-->

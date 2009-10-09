@@ -3385,3 +3385,2822 @@ Completed in 5423ms (View: 5421, DB: 1) | 200 OK [http://localhost/]
 Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 21:38:21) [GET]
   Parameters: {"id"=>"3", "_"=>"1255052301559"}
 Completed in 1ms (View: 0, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/3?_=1255052301559]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:40:47) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (2.0ms)
+Rendered shared/_tweets_list (1.4ms)
+Rendered shared/_cookie_info (0.4ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (55.0ms)
+Completed in 5602ms (View: 5591, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:40:53) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 423ms (View: 421, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:40:53) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 382ms (View: 380, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:40:54) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.0ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 562ms (View: 560, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:40:54) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 445ms (View: 443, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:40:55) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 6173ms (View: 6171, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:01) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 756ms (View: 754, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:02) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 688ms (View: 686, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:02) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 739ms (View: 737, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:03) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 566ms (View: 564, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:04) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 627ms (View: 625, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:04) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 610ms (View: 608, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:05) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 669ms (View: 667, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:05) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 555ms (View: 553, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:06) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 661ms (View: 659, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:07) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.0ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 603ms (View: 601, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:07) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 666ms (View: 664, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:08) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.0ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 619ms (View: 617, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:09) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 492ms (View: 490, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:09) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 560ms (View: 557, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:10) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 626ms (View: 623, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:10) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.0ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 659ms (View: 657, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:11) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 509ms (View: 507, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:11) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 590ms (View: 588, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:12) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 617ms (View: 615, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:13) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 5441ms (View: 5439, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:18) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 466ms (View: 464, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:19) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 401ms (View: 399, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:19) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.0ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 346ms (View: 344, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:19) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 473ms (View: 471, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:20) [GET]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 373ms (View: 371, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:20) [GET]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 427ms (View: 424, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:21) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 366ms (View: 364, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:21) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 394ms (View: 392, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:21) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 482ms (View: 480, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:22) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 345ms (View: 343, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:22) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 419ms (View: 417, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:23) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 381ms (View: 379, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:23) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 344ms (View: 342, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:23) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.0ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 413ms (View: 411, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:24) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 400ms (View: 398, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:24) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 367ms (View: 365, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:25) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 288ms (View: 286, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:25) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 335ms (View: 334, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:25) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.0ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 359ms (View: 357, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:26) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 459ms (View: 457, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:26) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 442ms (View: 440, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:26) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 337ms (View: 335, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:27) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 355ms (View: 353, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:27) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 373ms (View: 371, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:28) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 312ms (View: 310, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:28) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (74.2ms)
+Completed in 371ms (View: 369, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:28) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 326ms (View: 324, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:29) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 338ms (View: 335, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:29) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 392ms (View: 390, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:29) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.0ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 366ms (View: 365, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:30) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.0ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 355ms (View: 353, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:30) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 1563ms (View: 1561, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:32) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 370ms (View: 368, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:32) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 362ms (View: 360, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:32) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 394ms (View: 392, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:33) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 8416ms (View: 8414, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:41) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 1268ms (View: 1266, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:42) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 1007ms (View: 1005, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:43) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 351ms (View: 349, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:44) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 321ms (View: 319, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:44) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 555ms (View: 553, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:45) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.0ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 1257ms (View: 1255, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:46) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.2ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 398ms (View: 396, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:46) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 416ms (View: 414, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:47) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 327ms (View: 325, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:47) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 408ms (View: 406, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:47) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 465ms (View: 463, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:48) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 379ms (View: 376, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:48) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 452ms (View: 450, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:49) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 5392ms (View: 5390, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:54) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 337ms (View: 335, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:54) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 351ms (View: 349, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:55) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 541ms (View: 539, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:55) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 336ms (View: 334, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:56) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 1351ms (View: 1349, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:57) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 337ms (View: 334, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:57) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 374ms (View: 371, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:58) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 319ms (View: 317, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:58) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 337ms (View: 335, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:58) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 463ms (View: 461, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:59) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 485ms (View: 483, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:41:59) [GET]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 386ms (View: 384, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:00) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 317ms (View: 315, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:00) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 356ms (View: 354, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:00) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 367ms (View: 365, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:01) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 377ms (View: 375, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:01) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 436ms (View: 434, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:02) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 342ms (View: 339, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:02) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 857ms (View: 855, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:03) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 301ms (View: 299, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:03) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 419ms (View: 417, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:04) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (74.4ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 407ms (View: 404, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:04) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 307ms (View: 305, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:04) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 379ms (View: 377, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:05) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.0ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 302ms (View: 300, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:05) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 400ms (View: 398, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:05) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.0ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 399ms (View: 396, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:06) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 473ms (View: 471, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:06) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 385ms (View: 383, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:07) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 401ms (View: 399, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:07) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 309ms (View: 307, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:07) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 341ms (View: 340, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:08) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 344ms (View: 342, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:08) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 430ms (View: 428, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:08) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 321ms (View: 319, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:09) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 339ms (View: 337, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:09) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 420ms (View: 418, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:10) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.0ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 419ms (View: 417, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:10) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 327ms (View: 325, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:10) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 511ms (View: 509, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:11) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 339ms (View: 337, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:11) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.0ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 294ms (View: 292, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:11) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 403ms (View: 401, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:12) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 338ms (View: 336, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:12) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 350ms (View: 348, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:13) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 397ms (View: 395, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:13) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 391ms (View: 389, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:13) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 330ms (View: 328, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:14) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (1.0ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 326ms (View: 323, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:14) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 1316ms (View: 1314, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:15) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 5300ms (View: 5298, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:21) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 4287ms (View: 4280, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:25) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 5740ms (View: 5738, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:31) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 645ms (View: 642, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:31) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 483ms (View: 481, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:32) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 726ms (View: 724, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:32) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 629ms (View: 627, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:33) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 5447ms (View: 5444, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:39) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 352ms (View: 350, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:39) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 416ms (View: 414, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:39) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 403ms (View: 401, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:40) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 422ms (View: 418, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:40) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 452ms (View: 450, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:41) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 320ms (View: 318, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:41) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 4380ms (View: 4378, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:45) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 437ms (View: 435, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:46) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.0ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 5407ms (View: 5405, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:51) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 424ms (View: 422, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:52) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 384ms (View: 382, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:52) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 1372ms (View: 1370, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:53) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 392ms (View: 390, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:54) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 350ms (View: 348, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:54) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 424ms (View: 422, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:55) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 452ms (View: 450, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:55) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 456ms (View: 454, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:55) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 317ms (View: 315, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:56) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 412ms (View: 410, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:56) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 300ms (View: 298, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:56) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 320ms (View: 318, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:57) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 406ms (View: 404, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:57) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 296ms (View: 294, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:57) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 299ms (View: 297, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:58) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 501ms (View: 499, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:58) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 359ms (View: 357, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:59) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 346ms (View: 344, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:42:59) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 503ms (View: 501, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:00) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 434ms (View: 431, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:00) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 331ms (View: 329, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:00) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 473ms (View: 471, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:01) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 320ms (View: 317, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:01) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.0ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 300ms (View: 298, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:01) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 432ms (View: 430, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:02) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 377ms (View: 375, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:02) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 382ms (View: 380, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:03) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 325ms (View: 323, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:03) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 316ms (View: 314, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:03) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (74.0ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 377ms (View: 302, DB: 74) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:04) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 303ms (View: 300, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:04) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 316ms (View: 314, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:04) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 344ms (View: 342, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:05) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 1008ms (View: 1006, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:06) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.0ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 392ms (View: 390, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:06) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 483ms (View: 481, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:06) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 418ms (View: 416, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:07) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 356ms (View: 354, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:07) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 381ms (View: 378, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:08) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 320ms (View: 317, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:08) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.0ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 418ms (View: 416, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:08) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 475ms (View: 473, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:09) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 362ms (View: 360, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:09) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 369ms (View: 367, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:10) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 361ms (View: 359, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:10) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 305ms (View: 302, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:10) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 359ms (View: 356, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:11) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.9ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 397ms (View: 394, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:11) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.5ms)
+Completed in 339ms (View: 337, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:11) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 347ms (View: 345, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:12) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 5439ms (View: 5437, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:17) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 2) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 357ms (View: 354, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:17) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.7ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 395ms (View: 393, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:18) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.8ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 1354ms (View: 1352, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:19) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.5ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 379ms (View: 377, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:20) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 365ms (View: 362, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:43:20) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 1387ms (View: 1385, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ContentController#home (for 127.0.0.1 at 2009-10-08 22:44:44) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" [0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering content/home
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendered posts/_view (0.1ms)
+Rendered shared/_tweets_list (0.6ms)
+Rendered shared/_cookie_info (0.1ms)
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" [0m
+Rendered shared/_post_list (0.4ms)
+Completed in 5410ms (View: 5407, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing FragmentsController#viewed_posts (for 127.0.0.1 at 2009-10-08 22:47:38) [GET]
+  Parameters: {"id"=>"3", "_"=>"1255056458095"}
+Completed in 49ms (View: 0, DB: 0) | 200 OK [http://localhost/fragments/viewed_posts/3?_=1255056458095]
