@@ -8,44 +8,43 @@ backend default {
 .host = "127.0.0.1";
 .port = "3000";
 }
-# 
-sub req_strip_cookies {
-  remove req.http.cookie;
-  remove req.http.authenticate;    
-}  
-#             
+      
 
 
 sub vcl_recv { 
    
    #in vcl_revc you can "pass" or "lookup" 
-   #never cache non GET methods
+   #never cache non-GET methods
    if (req.request != "GET") {
      pass;
    }   
    
-   #enable Shift-Refresh auto purging in Development. You should disable in Production deployment.
-   if (req.http.Cache-Control ~ "no-cache") {
-       purge_url(req.url);
-   }
+
+   #Auto cache busting for dev, FF is not sending this.
+   # #enable Shift-Refresh auto purging in Development. You should disable in Production deployment.
+   # if (req.http.Cache-Control ~ "no-cache") {
+   #     purge_url(req.url);
+   # }   
      
-   
-   # Simple non-dynamic rule
+   #allow static assets automatically   
    if (req.url ~ "\.(pdf|png|gif|jpg|swf|css|js)(/$|/\?|\?|$)" ) {
-     req_strip_cookies;
+     remove req.http.cookie;
+     remove req.http.authenticate;
+     remove req.http.Etag;   
+     remove req.http.If-None-Match;
      lookup; #go to backend and see if there is an object        
    }                                                     
    
-   #dynamic ruleset for blog posts
-   if (req.request == "GET" && req.url ~ "^/posts.*$") {
-        # disable Etags   
-        #error 200 "cache";
-        req_strip_cookies;  
-        remove obj.http.Etag;   
-        remove req.http.If-None-Match;
-        lookup;
+   #dynamic ruleset for frontend caching, attempt to pull from cache on ALL GET requests.
+   if (req.request == "GET") {   
+        # disable Etags && incoming cookies
+        remove req.http.cookie;
+        remove req.http.authenticate;
+        remove req.http.Etag;   
+        remove req.http.If-None-Match;                        
+        lookup; #go to backend and see if there is an object 
 
-    #listing details only
+    # i give up, no caching
     } else {  
       #error 200 "don't cache";
       pass;   
@@ -55,31 +54,64 @@ sub vcl_recv {
 }  
 
 sub vcl_fetch {   
-  
+   
+   #very important, we don't want to cache 500s
+   if (obj.status >= 300) {
+       pass;
+   }
+     
+   if (obj.cacheable) {
+          /* Remove Expires from backend, it's not long enough */
+          unset obj.http.expires;
+   
+          /* Set the clients TTL on this object */
+          # set obj.http.cache-control = "max-age = 900"; #set to your business needs   
+       }
+   
+   # #allow static assets automatically
    if (req.url ~ "\.(pdf|png|gif|jpg|swf|css|js)(/$|/\?|\?|$)" ) {
       unset obj.http.set-cookie; #strip cookie from backend before storing in cache
-      
-   } 
-   
-   if (obj.cacheable) {
-       /* Remove Expires from backend, it's not long enough */
-       unset obj.http.expires;
+      deliver;     
+   }  
+   #         
+   #respect the backend from Rails private, no caching here
+   if (obj.http.Pragma ~ "no-cache" ||
+      obj.http.Cache-Control ~ "no-cache" ||
+      obj.http.Cache-Control ~ "private") {
+      pass;
+   }
 
-       /* Set the clients TTL on this object */
-       set obj.http.cache-control = "max-age = 900"; #set to your business needs  
-    }
-   
+   #to be pulled from cache, wax any cookies, we need the public set   
+   #to cache all "/" you can't use regex ~ "^/$"      
+    if (req.url == "/" || req.url ~ "^/content") {
+         unset obj.http.Set-Cookie; 
+         unset  obj.http.Etag;  
+         #set obj.ttl = 30m; 
+         deliver;
+     }  
+   #   
+   # #to be pulled from cache, we need the public set         
+   # if (obj.http.Cache-Control ~ "public") {
+   #      unset obj.http.Set-Cookie; 
+   #      unset  obj.http.Etag;
+   #      deliver;
+   #  }
+   # 
+   #catch all from Varnish
    if (!obj.cacheable) {
        return (pass);
-   }
-   if (obj.http.Set-Cookie) {
+   }  
+   # 
+   #this tells Varnish to not cache b/c this obj wants to set a cookie.
+   if (obj.http.Set-Cookie) {  
+
        return (pass);
-   }
-   set obj.prefetch =  -30s;
-   return (deliver);
+   } 
+    
+
 }
    
-
+#This is displayed if there is an error.
 sub vcl_error {
    set obj.http.Content-Type = "text/html; charset=utf-8";
    synthetic {"
@@ -93,9 +125,11 @@ sub vcl_error {
  <body>
    <h1>Error "} obj.status " " obj.response {"</h1>
    <p>"} obj.response {"</p>
+  <br>Request URL: "} req.url {"
+  <br>Request Host: "} req.http.host {"
    <h3>Guru Meditation:</h3>
    <p>XID(): "} req.xid {"</p>
-     <br>Host Header: "} req.http.host {"
+ 
    <address><a href="http://www.varnish-cache.org/">Varnish</a></address>
  </body>
 </html>
