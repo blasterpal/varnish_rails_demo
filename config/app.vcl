@@ -83,19 +83,19 @@ sub vcl_fetch {
 
    #to be pulled from cache, wax any cookies, we need the public set   
    #to cache all "/" you can't use regex ~ "^/$"      
-    if (req.url == "/" || req.url ~ "^/content") {
-         unset obj.http.Set-Cookie; 
-         unset  obj.http.Etag;  
-         #set obj.ttl = 30m; 
-         deliver;
-     }  
+    # if (req.url == "/" || req.url ~ "^/content") {
+    #      unset obj.http.Set-Cookie; 
+    #      unset  obj.http.Etag;  
+    #      #set obj.ttl = 30m; 
+    #      deliver;
+    #  }      
    #   
    # #to be pulled from cache, we need the public set         
-   # if (obj.http.Cache-Control ~ "public") {
-   #      unset obj.http.Set-Cookie; 
-   #      unset  obj.http.Etag;
-   #      deliver;
-   #  }
+   if (obj.http.Cache-Control ~ "max-age") {
+        unset obj.http.Set-Cookie; 
+        unset  obj.http.Etag;
+        deliver;
+    } 
    # 
    #catch all from Varnish
    if (!obj.cacheable) {
