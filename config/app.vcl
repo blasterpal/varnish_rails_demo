@@ -91,7 +91,7 @@ sub vcl_fetch {
     #  }      
    #   
    # #to be pulled from cache, we need the public set         
-   if (obj.http.Cache-Control ~ "max-age") {
+   if (obj.http.Cache-Control ~ "public") {
         unset obj.http.Set-Cookie; 
         unset  obj.http.Etag;
         deliver;
@@ -110,7 +110,16 @@ sub vcl_fetch {
     
 
 }
-   
+
+sub vcl_deliver {
+  if (obj.hits > 0) {
+          set resp.http.X-Cache = "HIT";
+  } else {
+          set resp.http.X-Cache = "MISS";
+  }
+}
+
+ 
 #This is displayed if there is an error.
 sub vcl_error {
    set obj.http.Content-Type = "text/html; charset=utf-8";
