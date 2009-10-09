@@ -1,10 +1,10 @@
 class PostsController < ApplicationController      
   
-  #before_filter :cache_control, :only => {:show}
+  before_filter :no_cache
   
   # GET /posts
   # GET /posts.xml
-  def index
+  def index 
     @posts = Post.all
 
     respond_to do |format|

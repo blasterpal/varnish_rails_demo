@@ -13,7 +13,12 @@ fi
 /usr/local/sbin/varnishd -a localhost:8080 -b blackbook.local:3000 -T localhost:6082 -F -s file,/tmp/varnish.storage,100M            
 
 
-/usr/local/sbin/varnishd -a localhost:8080 -T localhost:6082 -F -s file,/tmp/varnish.storage,100M -f ~/code/varnish_demo/config/app.vcl  
+/usr/local/sbin/varnishd -a localhost:6081 -T localhost:6082 -F -s file,/tmp/varnish.storage,50M -f /Users/hbeaver/code/varnish_demo/config/app.vcl  
                                        
 
-/usr/local/sbin/varnishd -f  ~/code/varnish_demo/config/app.vcl
+/usr/local/sbin/varnishd -f  ~/code/varnish_demo/config/app.vcl  
+
+
+
+vcl.load app_conf  /Users/hbeaver/code/varnish_demo/config/app.vcl   
+vcl.use app_conf
