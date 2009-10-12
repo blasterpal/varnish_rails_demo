@@ -6,7 +6,7 @@ module ApplicationHelper
   require 'open-uri'
   
   def pretty_time
-     Time.now
+     Time.now.strftime('%m/%d/%Y <strong>%H:%M:%S</strong>')
   end 
   
   def view_post(id)                                
@@ -29,7 +29,8 @@ module ApplicationHelper
   def tweet_list
     #feed = 'http://search.twitter.com/search.atom?q=ghosts'  
     feed = File.open(File.join(RAILS_ROOT, 'public/ghosts.rss'))
-    stagger = rand(5)+ 1
+    stagger = rand(6)+ 2 
+    sleep stagger
     @tweets = SimpleRSS.parse feed
     render :partial => 'shared/tweets_list'
   end    
