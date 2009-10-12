@@ -1,0 +1,1 @@
+role :varnish, "127.0.0.1", :enable_varnish => true, :no_release => false     
