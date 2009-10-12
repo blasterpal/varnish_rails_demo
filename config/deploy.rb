@@ -1,3 +1,7 @@
+require 'capistrano/ext/multistage'  
+require 'lib/varnish' 
+Capistrano::Configuration.send(:include, Varnish)
+
 set :application, "set your application name here"
 set :repository,  "set your repository location here"
 
