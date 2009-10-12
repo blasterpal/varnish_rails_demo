@@ -8,7 +8,7 @@ class FragmentsController < ApplicationController
   def viewed_posts         
     if params[:id]  
             cookies[:viewed_posts] = 
-            {:value => "The last post you viewed was: #{params[:id]}", :expires => 1.week.from_now} 
+            {:value => "#{params[:id]}", :expires => 1.week.from_now} 
     end 
     render :text => "<!-- Viewed Posts Called with #{params[:id] }-->"
   end
