@@ -13,10 +13,10 @@ backend default {
 
 sub vcl_recv { 
    
-   #in vcl_revc you can "pass" or "lookup" 
+   #in vcl_revc you can "pass" , "pipe", or "lookup" 
    #never cache non-GET methods
    if (req.request != "GET") {
-     pass;
+     pipe; #pass will accomplish same, but apparently more varnish handling
    }   
    
 
@@ -44,7 +44,7 @@ sub vcl_recv {
         remove req.http.If-None-Match;                        
         lookup; #go to backend and see if there is an object 
 
-    # i give up, no caching
+    # i give up, no caching as default strategy
     } else {  
       #error 200 "don't cache";
       pass;   
@@ -55,15 +55,15 @@ sub vcl_recv {
 
 sub vcl_fetch {   
    
-   #very important, we don't want to cache 500s
-   if (obj.status >= 300) {
+ 	# very important, we don't want to cache 500s
+ 	# we are not letting varnish have a grace period to handle and error or slow backend. 
+ 	if (obj.status >= 300) {
        pass;
    }
-     
+   
    if (obj.cacheable) {
           /* Remove Expires from backend, it's not long enough */
           unset obj.http.expires;
-   
           /* Set the clients TTL on this object */
           # set obj.http.cache-control = "max-age = 900"; #set to your business needs   
        }
@@ -81,18 +81,13 @@ sub vcl_fetch {
       pass;
    }
 
-   #to be pulled from cache, wax any cookies, we need the public set   
-   #to cache all "/" you can't use regex ~ "^/$"      
-    # if (req.url == "/" || req.url ~ "^/content") {
-    #      unset obj.http.Set-Cookie; 
-    #      unset  obj.http.Etag;  
-    #      #set obj.ttl = 30m; 
-    #      deliver;
-    #  }      
-   #   
    # #to be pulled from cache, we need the public set         
    if (obj.http.Cache-Control ~ "public") {
-        unset obj.http.Set-Cookie; 
+        unset obj.http.Set-Cookie;
+        #unset the cache control, else the browser will keep for that long too. 
+        #we want to control requests.
+        unset obj.http.Cache-Control; 
+        set obj.http.Cache-Control = "no-cache"; #tell client to request a new one everytime
         deliver;
     } 
    # 
@@ -105,7 +100,9 @@ sub vcl_fetch {
    if (obj.http.Set-Cookie) {  
        return (pass);
    } 
-    
+   
+   #else we will try NOT cache by default
+   pass;
 
 }
 
