@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#Interactive Varnish startup script. Does not run in daemon mode, mostly designed for OSX development.
+#Make sure your IPv6 /etc/hosts entries are commented out or you'll get this error:
+# Only one address is allowed.
+# Please specify which exact address you want to use, we found these:
+#   ::1
+#   fe80::1%lo0
+#   127.0.0.1 
+
+#One line example, default VCL routines built into Varnish.
+#/usr/local/sbin/varnishd -a blackbook.local:3000 -b blackbook.local:8080 -T blackbook.local:6082 
+
+
+#start up Varnish, listening on localhost:6081, with default backend to Rails on 3000, management on port 6082, storage set for 50m in /tmp, 
+BASE=`pwd`
+
+/usr/local/sbin/varnishd -a localhost:6081 -T localhost:6082 -F -s file,/tmp/varnish.storage,50M -f ${BASE}/config/app.vcl  
+             

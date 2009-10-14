@@ -40,4 +40,5 @@ Rails::Initializer.run do |config|
   # config.i18n.default_locale = :de
 end
 
+#this turns off cache-buster in all GET links. Mostly for static assets.
 ActionView::Helpers::AssetTagHelper.cache_asset_timestamps = false
