@@ -2,7 +2,7 @@ class ContentController < ApplicationController
   
   #do a before filter so all content actions get caught
   before_filter do |controller|
-       controller.cache_control({:ttl => 200})
+       controller.cache_control({:ttl => 120})
   end
   
   def home                               
