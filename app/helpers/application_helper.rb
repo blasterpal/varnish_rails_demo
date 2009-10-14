@@ -12,32 +12,21 @@ module ApplicationHelper
   def view_post(id)                                
      post = Post.find(id)
      render :partial => 'posts/view', :locals => {:post => post} if post
-  end   
-  
-  def personal_info
-       @cookie = cookies[:viewed_posts]  
-       @ip = request.remote_ip      
-       @user_agent = request.headers['User-Agent']
-       render :partial => 'shared/cookie_info'
-  end  
+  end    
   
   def posts_list
      posts = Post.find(:all)
      render :partial => 'shared/post_list', :locals => {:posts => posts} if posts
-  end
+  end  
   
   def tweet_list
-    #feed = 'http://search.twitter.com/search.atom?q=ghosts'  
     feed = File.open(File.join(RAILS_ROOT, 'public/ghosts.rss'))
-    stagger = rand(6)+ 2 
-    sleep stagger
-    @tweets = SimpleRSS.parse feed
-    render :partial => 'shared/tweets_list'
-  end    
+    sleep rand(6)+ 2 unless params[:debug] == 'on' || params[:debug] == 'true'    
+    tweets = SimpleRSS.parse(feed)
+    render :partial => 'shared/tweets_list', :locals => {:tweets => tweets}
+  end
   
-
-
-    #from http://russ.github.com/2009/01/15/rails-varnish-and-esi.html
+  #from http://russ.github.com/2009/01/15/rails-varnish-and-esi.html
   def render_esi(path)
     if Rails.env == 'development'
       div_id = Digest::MD5.hexdigest(path + rand.to_s)

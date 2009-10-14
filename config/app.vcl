@@ -9,103 +9,70 @@ backend default {
 .port = "3000";
 }
       
+sub vcl_recv {   
+  #in vcl_revc you can "pass" , "pipe", or "lookup" 
+  #never cache non-GET methods      
+  if (req.request != "GET") {
+   pipe; #pass will accomplish same, but apparently more varnish handling
+  }   
+  # #allow static assets automatically   
+  # if (req.url ~ "\.(pdf|png|gif|jpg|swf|css|js)(/$|/\?|\?|$)" ) {
+  #   remove req.http.cookie;
+  #   remove req.http.authenticate;
+  #   remove req.http.Etag;   
+  #   remove req.http.If-None-Match;
+  #   lookup; #go to backend and see if there is an object        
+  # }                                                     
+  #     
+  #dynamic ruleset for frontend caching, attempt to pull from cache on ALL GET requests.
+  if (req.request == "GET") {   
+      # disable Etags && incoming cookies
+      remove req.http.cookie;
+      remove req.http.authenticate;
+      remove req.http.Etag;   
+      remove req.http.If-None-Match;                        
+      lookup; #go to backend and see if there is an object 
 
-
-sub vcl_recv { 
-   
-   #in vcl_revc you can "pass" , "pipe", or "lookup" 
-   #never cache non-GET methods
-   if (req.request != "GET") {
-     pipe; #pass will accomplish same, but apparently more varnish handling
-   }   
-   
-
-   #Auto cache busting for dev, FF is not sending this.
-   # #enable Shift-Refresh auto purging in Development. You should disable in Production deployment.
-   # if (req.http.Cache-Control ~ "no-cache") {
-   #     purge_url(req.url);
-   # }   
-     
-   #allow static assets automatically   
-   if (req.url ~ "\.(pdf|png|gif|jpg|swf|css|js)(/$|/\?|\?|$)" ) {
-     remove req.http.cookie;
-     remove req.http.authenticate;
-     remove req.http.Etag;   
-     remove req.http.If-None-Match;
-     lookup; #go to backend and see if there is an object        
-   }                                                     
-   
-   #dynamic ruleset for frontend caching, attempt to pull from cache on ALL GET requests.
-   if (req.request == "GET") {   
-        # disable Etags && incoming cookies
-        remove req.http.cookie;
-        remove req.http.authenticate;
-        remove req.http.Etag;   
-        remove req.http.If-None-Match;                        
-        lookup; #go to backend and see if there is an object 
-
-    # i give up, no caching as default strategy
-    } else {  
-      #error 200 "don't cache";
-      pass;   
-    }
-    
-  
+  # i give up, no caching as default strategy
+  } 
+  pass;    
 }  
 
 sub vcl_fetch {   
-   
+  
+  # fetch happens when we pass or try lookup and miss or otherwise go to backend.
+  # we can make more assertions on the obj and possibly cache for future use.
+  # deliver == cache
+  # pass == no caching
+  
  	# very important, we don't want to cache 500s
  	# we are not letting varnish have a grace period to handle and error or slow backend. 
- 	if (obj.status >= 300) {
-       pass;
-   }
-   
-   if (obj.cacheable) {
-          /* Remove Expires from backend, it's not long enough */
-          unset obj.http.expires;
-          /* Set the clients TTL on this object */
-          # set obj.http.cache-control = "max-age = 900"; #set to your business needs   
-       }
-   
-   # #allow static assets automatically
-   if (req.url ~ "\.(pdf|png|gif|jpg|swf|css|js)(/$|/\?|\?|$)" ) {
-      unset obj.http.set-cookie; #strip cookie from backend before storing in cache
-      deliver;     
-   }  
+  if (obj.status >= 300) {
+     pass;
+  }    
    #         
-   #respect the backend from Rails private, no caching here
-   if (obj.http.Pragma ~ "no-cache" ||
-      obj.http.Cache-Control ~ "no-cache" ||
-      obj.http.Cache-Control ~ "private") {
-      pass;
-   }
+  #respect the backend from Rails private, no caching here
+  if ( obj.http.Cache-Control ~ "private") {
+    pass;
+  }
 
-   # #to be pulled from cache, we need the public set         
-   if (obj.http.Cache-Control ~ "public") {
-        unset obj.http.Set-Cookie;
-        #unset the cache control, else the browser will keep for that long too. 
-        #we want to control requests.
-        unset obj.http.Cache-Control; 
-        set obj.http.Cache-Control = "no-cache"; #tell client to request a new one everytime
-        deliver;
-    } 
-   # 
-   #catch all from Varnish
-   if (!obj.cacheable) {
-       return (pass);
-   }  
-   # 
-   #this tells Varnish to not cache b/c this obj wants to set a cookie.
-   if (obj.http.Set-Cookie) {  
-       return (pass);
-   } 
-   
-   #else we will try NOT cache by default
-   pass;
+  # #to be pulled from cache, we need the public set         
+  if (obj.http.Cache-Control ~ "public") {
+      unset obj.http.Set-Cookie;
+      #unset the cache control, else the browser will keep for that long too. 
+      #we want to control requests.
+      unset obj.http.Etag;
+      unset obj.http.Cache-Control; 
+      set obj.http.Cache-Control = "no-cache"; #tell client to request a new one everytime
+      esi; #we will attempt to ESI process as well
+      deliver;
+  } 
+  #else we will try NOT cache by default , be safe
+  pass;  
 
 }
 
+# this executes on every response from varnish
 sub vcl_deliver {
   if (obj.hits > 0) {
           set resp.http.X-Cache = "HIT";
@@ -134,7 +101,7 @@ sub vcl_error {
    <h3>Guru Meditation:</h3>
    <p>XID(): "} req.xid {"</p>
  
-   <address><a href="http://www.varnish-cache.org/">Varnish</a></address>
+   <address><a href="http://www.atlruby.org/">This error was customized for ATLRUG</a></address>
  </body>
 </html>
 "};

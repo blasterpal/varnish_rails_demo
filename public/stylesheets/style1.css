@@ -1,0 +1,118 @@
+body{
+	background:#043560;
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;}
+
+#container{
+	width:875px;
+	margin:0 auto;
+	border:1px solid #333;
+	background:url(/images/bolt.png) center 60px no-repeat;}   
+
+#header{
+	border-bottom:1px solid #333;
+	background:#fff;
+	padding:10px;
+	text-align:center;} 
+	
+.sidebar_header{
+	border-bottom:1px solid #333;
+	background:#ddd;
+	padding:10px;
+	}
+
+.top{
+	 border-top:1px solid #333;  
+}	 
+
+#header h1 a{
+	font-size:30px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#00689f;}
+	 
+	
+#main{   
+	padding:5px;
+	background:url(/images/main-bg.png) top left repeat;
+	overflow:hidden;}   
+	
+.content{
+	 width:675px;   
+	float:left;
+} 
+ 
+
+#sidebar{
+	width:150px;
+	float: right;
+	color: #000;  
+	border:1px solid #333;
+	background:url(/images/main-bg.png) top left repeat;} 
+ 
+#sidebar ul{
+	margin:0;
+	padding:0 5px;
+	list-style-type:none;
+}                
+
+#sidebar ul li{
+	padding:5px 0;
+}
+
+#footer{
+	border-top:1px solid #333;
+	text-align:center;
+	font-size:12px;
+	line-height:70px;
+	height:100px;
+	color:#fff;
+	background:url(/images/footer.jpg) top left repeat-x;
+	clear:both;}	
+
+a{
+	color:#fff;}
+	
+ul li{
+	text-align:left; 
+	font-size:10px;
+	color:#222; 
+	margin:3 0 3 0px;  
+}	 
+
+ul#tweet_list li{
+	font-size:14px;
+	color:#000; 
+	margin:3 0 3 0px;    
+	padding:5px;
+}  
+
+#tweet_list {
+	color: #fff;
+	background:#111;
+	opacity: 0.7;  
+	padding:5px;  
+	clear:both;         
+}     
+
+#tweet_list ul{
+	list-style-type:none;
+}
+
+a.tweet_list_link {
+	color:#eee;   
+}            
+
+#sidebar ul li a{
+	color:#00689F;
+}                  
+
+.content img{
+	float:left;
+	padding:5px;
+	margin:5px;
+	border:1px solid #eee;
+}
+p.pretty_time{
+	font-size:12px;
+	font-color:#aaa;
+}

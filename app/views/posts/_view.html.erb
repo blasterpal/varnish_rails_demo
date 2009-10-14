@@ -8,5 +8,5 @@
 <div id="recently_viewed_cookie">
 </div>
 <script>
-  $.ajax({url:"/fragments/viewed_posts/<%=post.id%>" ,cache:false,success: function(html){$('#recently_viewed_cookie').append(html);}});           
+  $.ajax({url:"/fragments/viewed_posts/<%=post.id%>" ,cache:false});           
 </script>

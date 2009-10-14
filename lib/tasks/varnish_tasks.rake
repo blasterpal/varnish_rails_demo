@@ -7,7 +7,7 @@ namespace "varnish" do
 
     varnish_host = args.varnish_host
     if !varnish_host
-      puts "You must supply a Varnish host argument. Like so: rake varnish:global_purge['172.20.16.13']"
+      puts "You must supply a Varnish host argument. Like so: rake varnish:global_purge['172.1.1.20']"
       exit
     end
     #It WILL timeout, just accept it. Varnish does not have a command prompt.
